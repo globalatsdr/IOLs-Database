@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patients>
+    <Patient id="PAC-001">
+        <Name>Juan Pérez García</Name>
+        <Age>68</Age>
+        <AxialLength>23.45</AxialLength>
+        <K1>43.50</K1>
+        <K2>44.25</K2>
+        <ACD>3.20</ACD>
+        <LT>4.56</LT>
+        <TargetRefraction>-0.50</TargetRefraction>
+        <CreatedAt>2024-01-15</CreatedAt>
+        <Notes>Paciente con catarata nuclear grado 2</Notes>
+    </Patient>
+    <Patient id="PAC-002">
+        <Name>María López Fernández</Name>
+        <Age>72</Age>
+        <AxialLength>22.89</AxialLength>
+        <K1>44.75</K1>
+        <K2>45.50</K2>
+        <ACD>3.05</ACD>
+        <LT>4.23</LT>
+        <TargetRefraction>-0.75</TargetRefraction>
+        <CreatedAt>2024-01-18</CreatedAt>
+        <Notes>Hipermétrope, astigmatismo corneal 0.75D</Notes>
+    </Patient>
+    <!-- Más pacientes... -->
+</Patients>
