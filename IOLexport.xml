@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<IOLCon fileVersion="2.0" downloaded="2025-12-03">
+<IOLCon fileVersion="2.0" downloaded="2026-04-26">
 	<Lens id="2299">
 		<Manufacturer>1stQ</Manufacturer>
 		<Name>611HPS</Name>
@@ -51,6 +51,76 @@
 			<Barrett>
 				<LF>1.52</LF>
 				<DF></DF>
+			</Barrett>
+			<Olsen></Olsen>
+		</Constants>
+		<Constants type="optimized" results="0">
+			<SRKt></SRKt>
+			<Haigis>
+				<a0></a0>
+				<a1></a1>
+				<a2></a2>
+			</Haigis>
+			<HofferQ></HofferQ>
+			<Holladay1></Holladay1>
+		</Constants>
+	</Lens>
+	<Lens id="2561">
+		<Manufacturer>1stQ</Manufacturer>
+		<Name>877PTY</Name>
+		<Specifications>
+			<SinglePiece>yes</SinglePiece>
+			<OpticMaterial>acrylic</OpticMaterial>
+			<HapticMaterial></HapticMaterial>
+			<Preloaded>yes</Preloaded>
+			<Foldable>yes</Foldable>
+			<IncisionWidth></IncisionWidth>
+			<InjectorSize></InjectorSize>
+			<Hydro>hydrophobic</Hydro>
+			<Filter>yellow</Filter>
+			<RefractiveIndex>1.47</RefractiveIndex>
+			<AbbeNumber>58</AbbeNumber>
+			<Achromatic></Achromatic>
+			<OpticDiameter>6</OpticDiameter>
+			<HapticDiameter>13</HapticDiameter>
+			<OpticConcept>monofocal</OpticConcept>
+			<HapticDesign>C-Schlaufe, gefenstert</HapticDesign>
+			<IntendedLocation>capsular bag</IntendedLocation>
+			<OpticDesign>asphere</OpticDesign>
+			<Aberration></Aberration>
+			<saCorrection></saCorrection>
+			<Toric>yes</Toric>
+		</Specifications>
+		<Availability refractivePower="spherical equivalent" tNotation="no">
+			<Sphere range="1">
+				<From>10</From>
+				<To>30</To>
+				<Increment>0.5</Increment>
+			</Sphere>
+			<Cylinder range="1">
+				<From>1</From>
+				<To>1.5</To>
+				<Increment>0.5</Increment>
+			</Cylinder>
+			<Cylinder range="2">
+				<From>2.25</From>
+				<To>6</To>
+				<Increment>0.75</Increment>
+			</Cylinder>
+		</Availability>
+		<Constants type="nominal">
+			<Ultrasound></Ultrasound>
+			<SRKt>118.9</SRKt>
+			<Haigis>
+				<a0>1.32</a0>
+				<a1>0.4</a1>
+				<a2>0.1</a2>
+			</Haigis>
+			<HofferQ>5.46</HofferQ>
+			<Holladay1>1.7</Holladay1>
+			<Barrett>
+				<LF>1.83</LF>
+				<DF>5.5</DF>
 			</Barrett>
 			<Olsen></Olsen>
 		</Constants>
@@ -531,17 +601,17 @@
 			<Toric>no</Toric>
 		</Specifications>
 		<Availability>
-			<Sphere range="2">
+			<Sphere range="1">
 				<From>-10</From>
 				<To>9</To>
 				<Increment>1</Increment>
 			</Sphere>
-			<Sphere range="3">
+			<Sphere range="2">
 				<From>10</From>
 				<To>30</To>
 				<Increment>0.5</Increment>
 			</Sphere>
-			<Sphere range="4">
+			<Sphere range="3">
 				<From>31</From>
 				<To>35</To>
 				<Increment>1</Increment>
@@ -566,12 +636,12 @@
 		<Constants type="optimized" results="361">
 			<SRKt>119.0328</SRKt>
 			<Haigis>
-				<a0>0.87513</a0>
-				<a1>0.26588</a1>
-				<a2>0.14158</a2>
+				<a0>0.8751</a0>
+				<a1>0.2659</a1>
+				<a2>0.1416</a2>
 			</Haigis>
-			<HofferQ>5.59996</HofferQ>
-			<Holladay1>1.80856</Holladay1>
+			<HofferQ>5.6</HofferQ>
+			<Holladay1>1.8086</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="172">
@@ -636,12 +706,82 @@
 		<Constants type="optimized" results="361">
 			<SRKt>119.0328</SRKt>
 			<Haigis>
-				<a0>0.87513</a0>
-				<a1>0.26588</a1>
-				<a2>0.14158</a2>
+				<a0>0.8751</a0>
+				<a1>0.2659</a1>
+				<a2>0.1416</a2>
 			</Haigis>
-			<HofferQ>5.59996</HofferQ>
-			<Holladay1>1.80856</Holladay1>
+			<HofferQ>5.6</HofferQ>
+			<Holladay1>1.8086</Holladay1>
+		</Constants>
+	</Lens>
+	<Lens id="2560">
+		<Manufacturer>1stQ</Manufacturer>
+		<Name>B1AD00</Name>
+		<Specifications>
+			<SinglePiece>yes</SinglePiece>
+			<OpticMaterial>acrylic</OpticMaterial>
+			<HapticMaterial></HapticMaterial>
+			<Preloaded>no</Preloaded>
+			<Foldable>yes</Foldable>
+			<IncisionWidth></IncisionWidth>
+			<InjectorSize></InjectorSize>
+			<Hydro>hydrophobic</Hydro>
+			<Filter>clear</Filter>
+			<RefractiveIndex>1.47</RefractiveIndex>
+			<AbbeNumber>58</AbbeNumber>
+			<Achromatic></Achromatic>
+			<OpticDiameter>6</OpticDiameter>
+			<HapticDiameter>13</HapticDiameter>
+			<OpticConcept>monofocal</OpticConcept>
+			<HapticDesign>Z-Haptic</HapticDesign>
+			<IntendedLocation>capsular bag</IntendedLocation>
+			<OpticDesign>sphere</OpticDesign>
+			<Aberration></Aberration>
+			<saCorrection></saCorrection>
+			<Toric>no</Toric>
+		</Specifications>
+		<Availability>
+			<Sphere range="1">
+				<From>0</From>
+				<To>9</To>
+				<Increment>1</Increment>
+			</Sphere>
+			<Sphere range="2">
+				<From>10</From>
+				<To>30</To>
+				<Increment>0.5</Increment>
+			</Sphere>
+			<Sphere range="3">
+				<From>31</From>
+				<To>35</To>
+				<Increment>1</Increment>
+			</Sphere>
+		</Availability>
+		<Constants type="nominal">
+			<Ultrasound>118.9</Ultrasound>
+			<SRKt>119.033</SRKt>
+			<Haigis>
+				<a0>0.875</a0>
+				<a1>0.266</a1>
+				<a2>0.142</a2>
+			</Haigis>
+			<HofferQ>5.6</HofferQ>
+			<Holladay1>1.809</Holladay1>
+			<Barrett>
+				<LF>1.9</LF>
+				<DF></DF>
+			</Barrett>
+			<Olsen></Olsen>
+		</Constants>
+		<Constants type="optimized" results="0">
+			<SRKt></SRKt>
+			<Haigis>
+				<a0></a0>
+				<a1></a1>
+				<a2></a2>
+			</Haigis>
+			<HofferQ></HofferQ>
+			<Holladay1></Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="171">
@@ -706,12 +846,12 @@
 		<Constants type="optimized" results="361">
 			<SRKt>119.0328</SRKt>
 			<Haigis>
-				<a0>0.87513</a0>
-				<a1>0.26588</a1>
-				<a2>0.14158</a2>
+				<a0>0.8751</a0>
+				<a1>0.2659</a1>
+				<a2>0.1416</a2>
 			</Haigis>
-			<HofferQ>5.59996</HofferQ>
-			<Holladay1>1.80856</Holladay1>
+			<HofferQ>5.6</HofferQ>
+			<Holladay1>1.8086</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="1822">
@@ -774,14 +914,14 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="834">
-			<SRKt>118.94283</SRKt>
+			<SRKt>118.9428</SRKt>
 			<Haigis>
 				<a0>0.1657</a0>
-				<a1>0.31128</a1>
-				<a2>0.16305</a2>
+				<a1>0.3113</a1>
+				<a2>0.1631</a2>
 			</Haigis>
-			<HofferQ>5.52861</HofferQ>
-			<Holladay1>1.76008</Holladay1>
+			<HofferQ>5.5286</HofferQ>
+			<Holladay1>1.7601</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="1823">
@@ -844,14 +984,14 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="834">
-			<SRKt>118.94283</SRKt>
+			<SRKt>118.9428</SRKt>
 			<Haigis>
 				<a0>0.1657</a0>
-				<a1>0.31128</a1>
-				<a2>0.16305</a2>
+				<a1>0.3113</a1>
+				<a2>0.1631</a2>
 			</Haigis>
-			<HofferQ>5.52861</HofferQ>
-			<Holladay1>1.76008</Holladay1>
+			<HofferQ>5.5286</HofferQ>
+			<Holladay1>1.7601</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="174">
@@ -976,6 +1116,136 @@
 			<Holladay1>1.67</Holladay1>
 			<Barrett>
 				<LF>1.83</LF>
+				<DF></DF>
+			</Barrett>
+			<Olsen></Olsen>
+		</Constants>
+		<Constants type="optimized" results="0">
+			<SRKt></SRKt>
+			<Haigis>
+				<a0></a0>
+				<a1></a1>
+				<a2></a2>
+			</Haigis>
+			<HofferQ></HofferQ>
+			<Holladay1></Holladay1>
+		</Constants>
+	</Lens>
+	<Lens id="2562">
+		<Manufacturer>1stQ</Manufacturer>
+		<Name>B1TBY0</Name>
+		<Specifications>
+			<SinglePiece>yes</SinglePiece>
+			<OpticMaterial>acrylic</OpticMaterial>
+			<HapticMaterial></HapticMaterial>
+			<Preloaded>yes</Preloaded>
+			<Foldable>yes</Foldable>
+			<IncisionWidth></IncisionWidth>
+			<InjectorSize></InjectorSize>
+			<Hydro>hydrophobic</Hydro>
+			<Filter>yellow</Filter>
+			<RefractiveIndex>1.47</RefractiveIndex>
+			<AbbeNumber>58</AbbeNumber>
+			<Achromatic></Achromatic>
+			<OpticDiameter>6</OpticDiameter>
+			<HapticDiameter>13</HapticDiameter>
+			<OpticConcept>enhanced monofocal</OpticConcept>
+			<HapticDesign>Z-Haptik</HapticDesign>
+			<IntendedLocation>capsular bag</IntendedLocation>
+			<OpticDesign>asphere</OpticDesign>
+			<Aberration></Aberration>
+			<saCorrection></saCorrection>
+			<Toric>no</Toric>
+		</Specifications>
+		<Availability>
+			<Sphere range="1">
+				<From>10</From>
+				<To>30</To>
+				<Increment>0.5</Increment>
+			</Sphere>
+		</Availability>
+		<Constants type="nominal">
+			<Ultrasound>118.9</Ultrasound>
+			<SRKt>119.033</SRKt>
+			<Haigis>
+				<a0>0.875</a0>
+				<a1>0.266</a1>
+				<a2>0.142</a2>
+			</Haigis>
+			<HofferQ>5.6</HofferQ>
+			<Holladay1>1.809</Holladay1>
+			<Barrett>
+				<LF>1.9</LF>
+				<DF></DF>
+			</Barrett>
+			<Olsen></Olsen>
+		</Constants>
+		<Constants type="optimized" results="0">
+			<SRKt></SRKt>
+			<Haigis>
+				<a0></a0>
+				<a1></a1>
+				<a2></a2>
+			</Haigis>
+			<HofferQ></HofferQ>
+			<Holladay1></Holladay1>
+		</Constants>
+	</Lens>
+	<Lens id="2563">
+		<Manufacturer>1stQ</Manufacturer>
+		<Name>B1TBY0 torisch</Name>
+		<Specifications>
+			<SinglePiece>yes</SinglePiece>
+			<OpticMaterial>acrylic</OpticMaterial>
+			<HapticMaterial></HapticMaterial>
+			<Preloaded>yes</Preloaded>
+			<Foldable>yes</Foldable>
+			<IncisionWidth></IncisionWidth>
+			<InjectorSize></InjectorSize>
+			<Hydro>hydrophobic</Hydro>
+			<Filter>yellow</Filter>
+			<RefractiveIndex>1.47</RefractiveIndex>
+			<AbbeNumber>58</AbbeNumber>
+			<Achromatic></Achromatic>
+			<OpticDiameter>6</OpticDiameter>
+			<HapticDiameter>13</HapticDiameter>
+			<OpticConcept>enhanced monofocal</OpticConcept>
+			<HapticDesign>Z-Haptik</HapticDesign>
+			<IntendedLocation>capsular bag</IntendedLocation>
+			<OpticDesign>asphere</OpticDesign>
+			<Aberration></Aberration>
+			<saCorrection></saCorrection>
+			<Toric>yes</Toric>
+		</Specifications>
+		<Availability refractivePower="spherical equivalent" tNotation="no">
+			<Sphere range="1">
+				<From>10</From>
+				<To>30</To>
+				<Increment>0.5</Increment>
+			</Sphere>
+			<Cylinder range="1">
+				<From>1</From>
+				<To>1.5</To>
+				<Increment>0.5</Increment>
+			</Cylinder>
+			<Cylinder range="2">
+				<From>1.5</From>
+				<To>6</To>
+				<Increment>0.75</Increment>
+			</Cylinder>
+		</Availability>
+		<Constants type="nominal">
+			<Ultrasound>118.9</Ultrasound>
+			<SRKt>119.033</SRKt>
+			<Haigis>
+				<a0>0.875</a0>
+				<a1>0.266</a1>
+				<a2>0.142</a2>
+			</Haigis>
+			<HofferQ>5.6</HofferQ>
+			<Holladay1>1.809</Holladay1>
+			<Barrett>
+				<LF>1.9</LF>
 				<DF></DF>
 			</Barrett>
 			<Olsen></Olsen>
@@ -1126,14 +1396,14 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="191">
-			<SRKt>118.82434</SRKt>
+			<SRKt>118.8243</SRKt>
 			<Haigis>
-				<a0>0.31358</a0>
+				<a0>0.3136</a0>
 				<a1>0.1158</a1>
-				<a2>0.17576</a2>
+				<a2>0.1758</a2>
 			</Haigis>
 			<HofferQ>5.4111</HofferQ>
-			<Holladay1>1.66186</Holladay1>
+			<Holladay1>1.6619</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="2360">
@@ -1196,14 +1466,14 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="191">
-			<SRKt>118.82434</SRKt>
+			<SRKt>118.8243</SRKt>
 			<Haigis>
-				<a0>0.31358</a0>
+				<a0>0.3136</a0>
 				<a1>0.1158</a1>
-				<a2>0.17576</a2>
+				<a2>0.1758</a2>
 			</Haigis>
 			<HofferQ>5.4111</HofferQ>
-			<Holladay1>1.66186</Holladay1>
+			<Holladay1>1.6619</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="179">
@@ -1261,14 +1531,14 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="216">
-			<SRKt>118.92514</SRKt>
+			<SRKt>118.9251</SRKt>
 			<Haigis>
-				<a0>-0.94382</a0>
-				<a1>0.37308</a1>
-				<a2>0.20016</a2>
+				<a0>-0.9438</a0>
+				<a1>0.3731</a1>
+				<a2>0.2002</a2>
 			</Haigis>
-			<HofferQ>5.50896</HofferQ>
-			<Holladay1>1.74566</Holladay1>
+			<HofferQ>5.509</HofferQ>
+			<Holladay1>1.7457</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="178">
@@ -1321,14 +1591,14 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="216">
-			<SRKt>118.92514</SRKt>
+			<SRKt>118.9251</SRKt>
 			<Haigis>
-				<a0>-0.94382</a0>
-				<a1>0.37308</a1>
-				<a2>0.20016</a2>
+				<a0>-0.9438</a0>
+				<a1>0.3731</a1>
+				<a2>0.2002</a2>
 			</Haigis>
-			<HofferQ>5.50896</HofferQ>
-			<Holladay1>1.74566</Holladay1>
+			<HofferQ>5.509</HofferQ>
+			<Holladay1>1.7457</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="1824">
@@ -1386,14 +1656,14 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="216">
-			<SRKt>118.92514</SRKt>
+			<SRKt>118.9251</SRKt>
 			<Haigis>
-				<a0>-0.94382</a0>
-				<a1>0.37308</a1>
-				<a2>0.20016</a2>
+				<a0>-0.9438</a0>
+				<a1>0.3731</a1>
+				<a2>0.2002</a2>
 			</Haigis>
-			<HofferQ>5.50896</HofferQ>
-			<Holladay1>1.74566</Holladay1>
+			<HofferQ>5.509</HofferQ>
+			<Holladay1>1.7457</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="1825">
@@ -1451,14 +1721,14 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="216">
-			<SRKt>118.92514</SRKt>
+			<SRKt>118.9251</SRKt>
 			<Haigis>
-				<a0>-0.94382</a0>
-				<a1>0.37308</a1>
-				<a2>0.20016</a2>
+				<a0>-0.9438</a0>
+				<a1>0.3731</a1>
+				<a2>0.2002</a2>
 			</Haigis>
-			<HofferQ>5.50896</HofferQ>
-			<Holladay1>1.74566</Holladay1>
+			<HofferQ>5.509</HofferQ>
+			<Holladay1>1.7457</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="180">
@@ -1586,7 +1856,7 @@
 			<Haigis>
 				<a0>-0.7633</a0>
 				<a1>0.1391</a1>
-				<a2>0.22437</a2>
+				<a2>0.2244</a2>
 			</Haigis>
 			<HofferQ>5.5326</HofferQ>
 			<Holladay1>1.7244</Holladay1>
@@ -1651,7 +1921,7 @@
 			<Haigis>
 				<a0>-0.7633</a0>
 				<a1>0.1391</a1>
-				<a2>0.22437</a2>
+				<a2>0.2244</a2>
 			</Haigis>
 			<HofferQ>5.5326</HofferQ>
 			<Holladay1>1.7244</Holladay1>
@@ -1716,7 +1986,7 @@
 			<Haigis>
 				<a0>-0.7633</a0>
 				<a1>0.1391</a1>
-				<a2>0.22437</a2>
+				<a2>0.2244</a2>
 			</Haigis>
 			<HofferQ>5.5326</HofferQ>
 			<Holladay1>1.7244</Holladay1>
@@ -1781,7 +2051,7 @@
 			<Haigis>
 				<a0>-0.7633</a0>
 				<a1>0.1391</a1>
-				<a2>0.22437</a2>
+				<a2>0.2244</a2>
 			</Haigis>
 			<HofferQ>5.5326</HofferQ>
 			<Holladay1>1.7244</Holladay1>
@@ -1846,7 +2116,7 @@
 			<Haigis>
 				<a0>-0.7633</a0>
 				<a1>0.1391</a1>
-				<a2>0.22437</a2>
+				<a2>0.2244</a2>
 			</Haigis>
 			<HofferQ>5.5326</HofferQ>
 			<Holladay1>1.7244</Holladay1>
@@ -2207,14 +2477,14 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="505">
-			<SRKt>118.76195</SRKt>
+			<SRKt>118.762</SRKt>
 			<Haigis>
-				<a0>1.26704</a0>
-				<a1>0.22876</a1>
-				<a2>0.12187</a2>
+				<a0>1.267</a0>
+				<a1>0.2288</a1>
+				<a2>0.1219</a2>
 			</Haigis>
-			<HofferQ>5.41104</HofferQ>
-			<Holladay1>1.65243</Holladay1>
+			<HofferQ>5.411</HofferQ>
+			<Holladay1>1.6524</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="897">
@@ -2272,14 +2542,14 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="505">
-			<SRKt>118.76195</SRKt>
+			<SRKt>118.762</SRKt>
 			<Haigis>
-				<a0>1.26704</a0>
-				<a1>0.22876</a1>
-				<a2>0.12187</a2>
+				<a0>1.267</a0>
+				<a1>0.2288</a1>
+				<a2>0.1219</a2>
 			</Haigis>
-			<HofferQ>5.41104</HofferQ>
-			<Holladay1>1.65243</Holladay1>
+			<HofferQ>5.411</HofferQ>
+			<Holladay1>1.6524</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="1087">
@@ -2401,15 +2671,15 @@
 			</Barrett>
 			<Olsen></Olsen>
 		</Constants>
-		<Constants type="optimized" results="5208">
-			<SRKt>118.38831</SRKt>
+		<Constants type="optimized" results="3176">
+			<SRKt>118.3883</SRKt>
 			<Haigis>
-				<a0>0.25349</a0>
-				<a1>0.23827</a1>
-				<a2>0.15254</a2>
+				<a0>0.2535</a0>
+				<a1>0.2383</a1>
+				<a2>0.1525</a2>
 			</Haigis>
 			<HofferQ>5.1798</HofferQ>
-			<Holladay1>1.41579</Holladay1>
+			<Holladay1>1.4158</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="900">
@@ -2471,15 +2741,15 @@
 			</Barrett>
 			<Olsen></Olsen>
 		</Constants>
-		<Constants type="optimized" results="5208">
-			<SRKt>118.38831</SRKt>
+		<Constants type="optimized" results="3176">
+			<SRKt>118.3883</SRKt>
 			<Haigis>
-				<a0>0.25349</a0>
-				<a1>0.23827</a1>
-				<a2>0.15254</a2>
+				<a0>0.2535</a0>
+				<a1>0.2383</a1>
+				<a2>0.1525</a2>
 			</Haigis>
 			<HofferQ>5.1798</HofferQ>
-			<Holladay1>1.41579</Holladay1>
+			<Holladay1>1.4158</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="157">
@@ -2871,7 +3141,7 @@
 			</Barrett>
 			<Olsen></Olsen>
 		</Constants>
-		<Constants type="optimized" results="535">
+		<Constants type="optimized" results="96">
 			<SRKt>118.97</SRKt>
 			<Haigis>
 				<a0>-0.025</a0>
@@ -2934,12 +3204,12 @@
 		<Constants type="optimized" results="211">
 			<SRKt>119.1054</SRKt>
 			<Haigis>
-				<a0>1.39695</a0>
-				<a1>0.22234</a1>
-				<a2>0.12634</a2>
+				<a0>1.397</a0>
+				<a1>0.2223</a1>
+				<a2>0.1263</a2>
 			</Haigis>
-			<HofferQ>5.66695</HofferQ>
-			<Holladay1>1.88029</Holladay1>
+			<HofferQ>5.667</HofferQ>
+			<Holladay1>1.8803</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="1158">
@@ -3001,12 +3271,12 @@
 		<Constants type="optimized" results="211">
 			<SRKt>119.1054</SRKt>
 			<Haigis>
-				<a0>1.39695</a0>
-				<a1>0.22234</a1>
-				<a2>0.12634</a2>
+				<a0>1.397</a0>
+				<a1>0.2223</a1>
+				<a2>0.1263</a2>
 			</Haigis>
-			<HofferQ>5.66695</HofferQ>
-			<Holladay1>1.88029</Holladay1>
+			<HofferQ>5.667</HofferQ>
+			<Holladay1>1.8803</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="883">
@@ -3108,7 +3378,7 @@
 			</Sphere>
 		</Availability>
 		<Constants type="ULIB" results="399">
-			<Ultrasound>118.4</Ultrasound>
+			<Ultrasound>118.8</Ultrasound>
 			<SRKt>119.2</SRKt>
 			<Haigis>
 				<a0>0.229</a0>
@@ -3552,12 +3822,12 @@
 		<Constants type="optimized" results="383">
 			<SRKt>118.8487</SRKt>
 			<Haigis>
-				<a0>-0.87146</a0>
-				<a1>0.28402</a1>
-				<a2>0.20773</a2>
+				<a0>-0.8715</a0>
+				<a1>0.284</a1>
+				<a2>0.2077</a2>
 			</Haigis>
-			<HofferQ>5.45197</HofferQ>
-			<Holladay1>1.69413</Holladay1>
+			<HofferQ>5.452</HofferQ>
+			<Holladay1>1.6941</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="868">
@@ -3609,7 +3879,7 @@
 			</Barrett>
 			<Olsen></Olsen>
 		</Constants>
-		<Constants type="optimized" results="535">
+		<Constants type="optimized" results="96">
 			<SRKt>118.97</SRKt>
 			<Haigis>
 				<a0>-0.025</a0>
@@ -3685,14 +3955,14 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="51">
-			<SRKt>119.04</SRKt>
+			<SRKt>119.1368</SRKt>
 			<Haigis>
 				<a0>1.5</a0>
 				<a1>0.4</a1>
 				<a2>0.1</a2>
 			</Haigis>
-			<HofferQ>5.63</HofferQ>
-			<Holladay1>1.84</Holladay1>
+			<HofferQ>5.6844</HofferQ>
+			<Holladay1>1.9004</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="878">
@@ -3809,7 +4079,7 @@
 			</Barrett>
 			<Olsen></Olsen>
 		</Constants>
-		<Constants type="optimized" results="535">
+		<Constants type="optimized" results="96">
 			<SRKt>118.97</SRKt>
 			<Haigis>
 				<a0>-0.025</a0>
@@ -3951,14 +4221,14 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="51">
-			<SRKt>119.04</SRKt>
+			<SRKt>119.1368</SRKt>
 			<Haigis>
 				<a0>1.5</a0>
 				<a1>0.4</a1>
 				<a2>0.1</a2>
 			</Haigis>
-			<HofferQ>5.63</HofferQ>
-			<Holladay1>1.84</Holladay1>
+			<HofferQ>5.6844</HofferQ>
+			<Holladay1>1.9004</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="876">
@@ -4010,7 +4280,7 @@
 			</Barrett>
 			<Olsen></Olsen>
 		</Constants>
-		<Constants type="optimized" results="535">
+		<Constants type="optimized" results="96">
 			<SRKt>118.97</SRKt>
 			<Haigis>
 				<a0>-0.025</a0>
@@ -4279,13 +4549,13 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="254">
-			<SRKt>119.12991</SRKt>
+			<SRKt>119.1299</SRKt>
 			<Haigis>
-				<a0>-0.24378</a0>
-				<a1>0.30798</a1>
-				<a2>0.18491</a2>
+				<a0>-0.2438</a0>
+				<a1>0.308</a1>
+				<a2>0.1849</a2>
 			</Haigis>
-			<HofferQ>5.67807</HofferQ>
+			<HofferQ>5.6781</HofferQ>
 			<Holladay1>1.8918</Holladay1>
 		</Constants>
 	</Lens>
@@ -4356,13 +4626,13 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="254">
-			<SRKt>119.12991</SRKt>
+			<SRKt>119.1299</SRKt>
 			<Haigis>
-				<a0>-0.24378</a0>
-				<a1>0.30798</a1>
-				<a2>0.18491</a2>
+				<a0>-0.2438</a0>
+				<a1>0.308</a1>
+				<a2>0.1849</a2>
 			</Haigis>
-			<HofferQ>5.67807</HofferQ>
+			<HofferQ>5.6781</HofferQ>
 			<Holladay1>1.8918</Holladay1>
 		</Constants>
 	</Lens>
@@ -4415,15 +4685,15 @@
 			</Barrett>
 			<Olsen></Olsen>
 		</Constants>
-		<Constants type="optimized" results="1039">
-			<SRKt>119.35365</SRKt>
+		<Constants type="optimized" results="337">
+			<SRKt>119.3537</SRKt>
 			<Haigis>
-				<a0>-0.34056</a0>
-				<a1>0.24145</a1>
-				<a2>0.20431</a2>
+				<a0>-0.3406</a0>
+				<a1>0.2415</a1>
+				<a2>0.2043</a2>
 			</Haigis>
-			<HofferQ>5.79479</HofferQ>
-			<Holladay1>2.02231</Holladay1>
+			<HofferQ>5.7948</HofferQ>
+			<Holladay1>2.0223</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="1835">
@@ -4616,15 +4886,15 @@
 			</Barrett>
 			<Olsen></Olsen>
 		</Constants>
-		<Constants type="optimized" results="1039">
-			<SRKt>119.35365</SRKt>
+		<Constants type="optimized" results="337">
+			<SRKt>119.3537</SRKt>
 			<Haigis>
-				<a0>-0.34056</a0>
-				<a1>0.24145</a1>
-				<a2>0.20431</a2>
+				<a0>-0.3406</a0>
+				<a1>0.2415</a1>
+				<a2>0.2043</a2>
 			</Haigis>
-			<HofferQ>5.79479</HofferQ>
-			<Holladay1>2.02231</Holladay1>
+			<HofferQ>5.7948</HofferQ>
+			<Holladay1>2.0223</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="2333">
@@ -8294,15 +8564,15 @@
 			</Barrett>
 			<Olsen></Olsen>
 		</Constants>
-		<Constants type="optimized" results="873">
-			<SRKt>119.27474</SRKt>
+		<Constants type="optimized" results="598">
+			<SRKt>119.2747</SRKt>
 			<Haigis>
-				<a0>0.30319</a0>
-				<a1>0.30232</a1>
-				<a2>0.16885</a2>
+				<a0>0.3032</a0>
+				<a1>0.3023</a1>
+				<a2>0.1689</a2>
 			</Haigis>
-			<HofferQ>5.80233</HofferQ>
-			<Holladay1>1.99875</Holladay1>
+			<HofferQ>5.8023</HofferQ>
+			<Holladay1>1.9988</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="2464">
@@ -8834,14 +9104,14 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="50">
-			<SRKt>119.60273</SRKt>
+			<SRKt>119.6027</SRKt>
 			<Haigis>
-				<a0>1.81505</a0>
+				<a0>1.8151</a0>
 				<a1>0.4</a1>
 				<a2>0.1</a2>
 			</Haigis>
-			<HofferQ>5.90391</HofferQ>
-			<Holladay1>2.14328</Holladay1>
+			<HofferQ>5.9039</HofferQ>
+			<Holladay1>2.1433</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="199">
@@ -8904,14 +9174,14 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="50">
-			<SRKt>119.60273</SRKt>
+			<SRKt>119.6027</SRKt>
 			<Haigis>
-				<a0>1.81505</a0>
+				<a0>1.8151</a0>
 				<a1>0.4</a1>
 				<a2>0.1</a2>
 			</Haigis>
-			<HofferQ>5.90391</HofferQ>
-			<Holladay1>2.14328</Holladay1>
+			<HofferQ>5.9039</HofferQ>
+			<Holladay1>2.1433</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="2421">
@@ -9094,14 +9364,14 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="29">
-			<SRKt>119.26424</SRKt>
+			<SRKt>119.2642</SRKt>
 			<Haigis>
-				<a0>1.65853</a0>
+				<a0>1.6585</a0>
 				<a1>0.4</a1>
 				<a2>0.1</a2>
 			</Haigis>
-			<HofferQ>5.73502</HofferQ>
-			<Holladay1>1.98841</Holladay1>
+			<HofferQ>5.735</HofferQ>
+			<Holladay1>1.9884</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="1800">
@@ -9159,14 +9429,14 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="29">
-			<SRKt>119.26424</SRKt>
+			<SRKt>119.2642</SRKt>
 			<Haigis>
-				<a0>1.65853</a0>
+				<a0>1.6585</a0>
 				<a1>0.4</a1>
 				<a2>0.1</a2>
 			</Haigis>
-			<HofferQ>5.73502</HofferQ>
-			<Holladay1>1.98841</Holladay1>
+			<HofferQ>5.735</HofferQ>
+			<Holladay1>1.9884</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="2528">
@@ -9374,14 +9644,14 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="121">
-			<SRKt>118.30985</SRKt>
+			<SRKt>118.3099</SRKt>
 			<Haigis>
-				<a0>0.51756</a0>
-				<a1>0.37086</a1>
-				<a2>0.12041</a2>
+				<a0>0.5176</a0>
+				<a1>0.3709</a1>
+				<a2>0.1204</a2>
 			</Haigis>
-			<HofferQ>5.10163</HofferQ>
-			<Holladay1>1.34689</Holladay1>
+			<HofferQ>5.1016</HofferQ>
+			<Holladay1>1.3469</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="1172">
@@ -9439,14 +9709,14 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="121">
-			<SRKt>118.30985</SRKt>
+			<SRKt>118.3099</SRKt>
 			<Haigis>
-				<a0>0.51756</a0>
-				<a1>0.37086</a1>
-				<a2>0.12041</a2>
+				<a0>0.5176</a0>
+				<a1>0.3709</a1>
+				<a2>0.1204</a2>
 			</Haigis>
-			<HofferQ>5.10163</HofferQ>
-			<Holladay1>1.34689</Holladay1>
+			<HofferQ>5.1016</HofferQ>
+			<Holladay1>1.3469</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="2269">
@@ -9842,12 +10112,12 @@
 		<Constants type="optimized" results="201">
 			<SRKt>118.7011</SRKt>
 			<Haigis>
-				<a0>-0.09173</a0>
-				<a1>0.31388</a1>
-				<a2>0.16807</a2>
+				<a0>-0.0917</a0>
+				<a1>0.3139</a1>
+				<a2>0.1681</a2>
 			</Haigis>
 			<HofferQ>5.4599</HofferQ>
-			<Holladay1>1.66778</Holladay1>
+			<Holladay1>1.6678</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="908">
@@ -9900,14 +10170,14 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="184">
-			<SRKt>118.67916</SRKt>
+			<SRKt>118.6792</SRKt>
 			<Haigis>
 				<a0>0.8563</a0>
-				<a1>0.33515</a1>
-				<a2>0.12464</a2>
+				<a1>0.3352</a1>
+				<a2>0.1246</a2>
 			</Haigis>
-			<HofferQ>5.44221</HofferQ>
-			<Holladay1>1.65032</Holladay1>
+			<HofferQ>5.4422</HofferQ>
+			<Holladay1>1.6503</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="942">
@@ -9962,14 +10232,14 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="442">
-			<SRKt>118.60357</SRKt>
+			<SRKt>118.6036</SRKt>
 			<Haigis>
-				<a0>0.65439</a0>
-				<a1>0.31179</a1>
-				<a2>0.12989</a2>
+				<a0>0.6544</a0>
+				<a1>0.3118</a1>
+				<a2>0.1299</a2>
 			</Haigis>
-			<HofferQ>5.28446</HofferQ>
-			<Holladay1>1.54418</Holladay1>
+			<HofferQ>5.2845</HofferQ>
+			<Holladay1>1.5442</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="2297">
@@ -10039,14 +10309,144 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="189">
-			<SRKt>118.79582</SRKt>
+			<SRKt>118.7958</SRKt>
 			<Haigis>
-				<a0>-0.19173</a0>
-				<a1>0.21491</a1>
-				<a2>0.18686</a2>
+				<a0>-0.1917</a0>
+				<a1>0.2149</a1>
+				<a2>0.1869</a2>
 			</Haigis>
-			<HofferQ>5.44857</HofferQ>
-			<Holladay1>1.67427</Holladay1>
+			<HofferQ>5.4486</HofferQ>
+			<Holladay1>1.6743</Holladay1>
+		</Constants>
+	</Lens>
+	<Lens id="2556">
+		<Manufacturer>Biotech Europe Meditech</Manufacturer>
+		<Name>Optiflex Trio Plus</Name>
+		<Specifications>
+			<SinglePiece>yes</SinglePiece>
+			<OpticMaterial>acrylic</OpticMaterial>
+			<HapticMaterial></HapticMaterial>
+			<Preloaded></Preloaded>
+			<Foldable></Foldable>
+			<IncisionWidth></IncisionWidth>
+			<InjectorSize></InjectorSize>
+			<Hydro>hydrophobic</Hydro>
+			<Filter></Filter>
+			<RefractiveIndex></RefractiveIndex>
+			<AbbeNumber></AbbeNumber>
+			<Achromatic></Achromatic>
+			<OpticDiameter></OpticDiameter>
+			<HapticDiameter></HapticDiameter>
+			<OpticConcept>multifocal</OpticConcept>
+			<HapticDesign></HapticDesign>
+			<IntendedLocation></IntendedLocation>
+			<OpticDesign></OpticDesign>
+			<Aberration></Aberration>
+			<saCorrection></saCorrection>
+			<Toric></Toric>
+		</Specifications>
+		<Availability>
+			<Sphere range="1">
+				<From>7</From>
+				<To>30</To>
+				<Increment>0.5</Increment>
+			</Sphere>
+		</Availability>
+		<Constants type="nominal">
+			<Ultrasound></Ultrasound>
+			<SRKt>119.2</SRKt>
+			<Haigis>
+				<a0>1.441</a0>
+				<a1>0.4</a1>
+				<a2>0.1</a2>
+			</Haigis>
+			<HofferQ>5.65</HofferQ>
+			<Holladay1>1.87</Holladay1>
+			<Barrett>
+				<LF>1.99</LF>
+				<DF></DF>
+			</Barrett>
+			<Olsen></Olsen>
+		</Constants>
+		<Constants type="optimized" results="0">
+			<SRKt></SRKt>
+			<Haigis>
+				<a0></a0>
+				<a1></a1>
+				<a2></a2>
+			</Haigis>
+			<HofferQ></HofferQ>
+			<Holladay1></Holladay1>
+		</Constants>
+	</Lens>
+	<Lens id="2555">
+		<Manufacturer>Biotech Europe Meditech</Manufacturer>
+		<Name>Optiflex Xtense Comfort Plus</Name>
+		<Specifications>
+			<SinglePiece>yes</SinglePiece>
+			<OpticMaterial>acrylic</OpticMaterial>
+			<HapticMaterial></HapticMaterial>
+			<Preloaded>yes</Preloaded>
+			<Foldable>yes</Foldable>
+			<IncisionWidth></IncisionWidth>
+			<InjectorSize></InjectorSize>
+			<Hydro>hydrophobic</Hydro>
+			<Filter></Filter>
+			<RefractiveIndex></RefractiveIndex>
+			<AbbeNumber></AbbeNumber>
+			<Achromatic></Achromatic>
+			<OpticDiameter>6</OpticDiameter>
+			<HapticDiameter>13</HapticDiameter>
+			<OpticConcept>EDoF</OpticConcept>
+			<HapticDesign></HapticDesign>
+			<IntendedLocation></IntendedLocation>
+			<OpticDesign></OpticDesign>
+			<Aberration></Aberration>
+			<saCorrection></saCorrection>
+			<Toric></Toric>
+		</Specifications>
+		<Availability>
+			<Sphere range="1">
+				<From>7</From>
+				<To>30</To>
+				<Increment>0.5</Increment>
+			</Sphere>
+			<Cylinder range="1">
+				<From>1</From>
+				<To>1.5</To>
+				<Increment>0.5</Increment>
+			</Cylinder>
+			<Cylinder range="2">
+				<From>1.5</From>
+				<To>6</To>
+				<Increment>0.75</Increment>
+			</Cylinder>
+		</Availability>
+		<Constants type="nominal">
+			<Ultrasound></Ultrasound>
+			<SRKt>119.4</SRKt>
+			<Haigis>
+				<a0>1.574</a0>
+				<a1>0.4</a1>
+				<a2>0.1</a2>
+			</Haigis>
+			<HofferQ>5.78</HofferQ>
+			<Holladay1>1.99</Holladay1>
+			<Barrett>
+				<LF>2.09</LF>
+				<DF></DF>
+			</Barrett>
+			<Olsen></Olsen>
+		</Constants>
+		<Constants type="optimized" results="0">
+			<SRKt></SRKt>
+			<Haigis>
+				<a0></a0>
+				<a1></a1>
+				<a2></a2>
+			</Haigis>
+			<HofferQ></HofferQ>
+			<Holladay1></Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="824">
@@ -10100,14 +10500,14 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="178">
-			<SRKt>118.41137</SRKt>
+			<SRKt>118.4114</SRKt>
 			<Haigis>
-				<a0>-0.74364</a0>
+				<a0>-0.7436</a0>
 				<a1>0.3098</a1>
-				<a2>0.19055</a2>
+				<a2>0.1906</a2>
 			</Haigis>
-			<HofferQ>5.23747</HofferQ>
-			<Holladay1>1.45754</Holladay1>
+			<HofferQ>5.2375</HofferQ>
+			<Holladay1>1.4575</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="823">
@@ -10171,13 +10571,13 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="72">
-			<SRKt>118.32121</SRKt>
+			<SRKt>118.3212</SRKt>
 			<Haigis>
-				<a0>0.97111</a0>
+				<a0>0.9711</a0>
 				<a1>0.4</a1>
 				<a2>0.1</a2>
 			</Haigis>
-			<HofferQ>5.18135</HofferQ>
+			<HofferQ>5.1814</HofferQ>
 			<Holladay1>1.4221</Holladay1>
 		</Constants>
 	</Lens>
@@ -10236,14 +10636,14 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="195">
-			<SRKt>118.29931</SRKt>
+			<SRKt>118.2993</SRKt>
 			<Haigis>
-				<a0>-0.44257</a0>
-				<a1>0.13261</a1>
-				<a2>0.19875</a2>
+				<a0>-0.4426</a0>
+				<a1>0.1326</a1>
+				<a2>0.1988</a2>
 			</Haigis>
-			<HofferQ>5.15748</HofferQ>
-			<Holladay1>1.39912</Holladay1>
+			<HofferQ>5.1575</HofferQ>
+			<Holladay1>1.3991</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="825">
@@ -10298,12 +10698,12 @@
 		<Constants type="optimized" results="206">
 			<SRKt>118.8542</SRKt>
 			<Haigis>
-				<a0>-0.90072</a0>
-				<a1>0.15319</a1>
-				<a2>0.22756</a2>
+				<a0>-0.9007</a0>
+				<a1>0.1532</a1>
+				<a2>0.2276</a2>
 			</Haigis>
-			<HofferQ>5.48865</HofferQ>
-			<Holladay1>1.72622</Holladay1>
+			<HofferQ>5.4887</HofferQ>
+			<Holladay1>1.7262</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="821">
@@ -10366,13 +10766,13 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="198">
-			<SRKt>118.17938</SRKt>
+			<SRKt>118.1794</SRKt>
 			<Haigis>
-				<a0>0.65315</a0>
-				<a1>0.30847</a1>
-				<a2>0.12324</a2>
+				<a0>0.6532</a0>
+				<a1>0.3085</a1>
+				<a2>0.1232</a2>
 			</Haigis>
-			<HofferQ>5.10189</HofferQ>
+			<HofferQ>5.1019</HofferQ>
 			<Holladay1>1.3315</Holladay1>
 		</Constants>
 	</Lens>
@@ -10426,14 +10826,14 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="182">
-			<SRKt>119.22016</SRKt>
+			<SRKt>119.2202</SRKt>
 			<Haigis>
 				<a0>-0.2342</a0>
-				<a1>0.19337</a1>
-				<a2>0.20322</a2>
+				<a1>0.1934</a1>
+				<a2>0.2032</a2>
 			</Haigis>
-			<HofferQ>5.74954</HofferQ>
-			<Holladay1>1.94803</Holladay1>
+			<HofferQ>5.7495</HofferQ>
+			<Holladay1>1.948</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="2376">
@@ -10496,13 +10896,13 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="102">
-			<SRKt>119.40055</SRKt>
+			<SRKt>119.4006</SRKt>
 			<Haigis>
-				<a0>2.37075</a0>
+				<a0>2.3708</a0>
 				<a1>0.4112</a1>
-				<a2>0.07096</a2>
+				<a2>0.071</a2>
 			</Haigis>
-			<HofferQ>5.91143</HofferQ>
+			<HofferQ>5.9114</HofferQ>
 			<Holladay1>2.1005</Holladay1>
 		</Constants>
 	</Lens>
@@ -10566,14 +10966,14 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="199">
-			<SRKt>118.82113</SRKt>
+			<SRKt>118.8211</SRKt>
 			<Haigis>
-				<a0>-1.08432</a0>
-				<a1>0.30567</a1>
-				<a2>0.21794</a2>
+				<a0>-1.0843</a0>
+				<a1>0.3057</a1>
+				<a2>0.2179</a2>
 			</Haigis>
-			<HofferQ>5.52977</HofferQ>
-			<Holladay1>1.74001</Holladay1>
+			<HofferQ>5.5298</HofferQ>
+			<Holladay1>1.74</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="930">
@@ -11085,7 +11485,7 @@
 				<LF>2.09</LF>
 				<DF>14</DF>
 			</Barrett>
-			<Olsen>0</Olsen>
+			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="0">
 			<SRKt></SRKt>
@@ -11145,7 +11545,7 @@
 				<LF>2.09</LF>
 				<DF>14</DF>
 			</Barrett>
-			<Olsen>0</Olsen>
+			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="0">
 			<SRKt></SRKt>
@@ -11591,7 +11991,7 @@
 			<IntendedLocation>capsular bag</IntendedLocation>
 			<OpticDesign>asphere</OpticDesign>
 			<Aberration>correcting</Aberration>
-			<saCorrection>0.11</saCorrection>
+			<saCorrection>-0.11</saCorrection>
 			<Toric></Toric>
 		</Specifications>
 		<Availability>
@@ -11607,15 +12007,15 @@
 			<Ultrasound>119.5</Ultrasound>
 			<SRKt>119.5</SRKt>
 			<Haigis>
-				<a0></a0>
-				<a1></a1>
-				<a2></a2>
+				<a0>1.7</a0>
+				<a1>0.4</a1>
+				<a2>0.1</a2>
 			</Haigis>
 			<HofferQ>5.93</HofferQ>
 			<Holladay1>2.16</Holladay1>
 			<Barrett>
-				<LF></LF>
-				<DF></DF>
+				<LF>2.15</LF>
+				<DF>-1</DF>
 			</Barrett>
 			<Olsen></Olsen>
 		</Constants>
@@ -13391,13 +13791,13 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="117">
-			<SRKt>119.05349</SRKt>
+			<SRKt>119.0535</SRKt>
 			<Haigis>
-				<a0>-1.57262</a0>
-				<a1>0.20917</a1>
-				<a2>0.25356</a2>
+				<a0>-1.5726</a0>
+				<a1>0.2092</a1>
+				<a2>0.2536</a2>
 			</Haigis>
-			<HofferQ>5.57179</HofferQ>
+			<HofferQ>5.5718</HofferQ>
 			<Holladay1>1.8221</Holladay1>
 		</Constants>
 	</Lens>
@@ -13487,7 +13887,7 @@
 		<Specifications>
 			<SinglePiece>yes</SinglePiece>
 			<OpticMaterial>acrylic</OpticMaterial>
-			<HapticMaterial>acrylic</HapticMaterial>
+			<HapticMaterial></HapticMaterial>
 			<Preloaded>yes</Preloaded>
 			<Foldable>yes</Foldable>
 			<IncisionWidth>1.5</IncisionWidth>
@@ -13538,12 +13938,12 @@
 		<Constants type="optimized" results="82">
 			<SRKt>118.8507</SRKt>
 			<Haigis>
-				<a0>1.22278</a0>
+				<a0>1.2228</a0>
 				<a1>0.4</a1>
 				<a2>0.1</a2>
 			</Haigis>
-			<HofferQ>5.45952</HofferQ>
-			<Holladay1>1.70636</Holladay1>
+			<HofferQ>5.4595</HofferQ>
+			<Holladay1>1.7064</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="750">
@@ -13603,12 +14003,12 @@
 		<Constants type="optimized" results="82">
 			<SRKt>118.8507</SRKt>
 			<Haigis>
-				<a0>1.22278</a0>
+				<a0>1.2228</a0>
 				<a1>0.4</a1>
 				<a2>0.1</a2>
 			</Haigis>
-			<HofferQ>5.45952</HofferQ>
-			<Holladay1>1.70636</Holladay1>
+			<HofferQ>5.4595</HofferQ>
+			<Holladay1>1.7064</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="747">
@@ -13668,12 +14068,12 @@
 		<Constants type="optimized" results="82">
 			<SRKt>118.8507</SRKt>
 			<Haigis>
-				<a0>1.22278</a0>
+				<a0>1.2228</a0>
 				<a1>0.4</a1>
 				<a2>0.1</a2>
 			</Haigis>
-			<HofferQ>5.45952</HofferQ>
-			<Holladay1>1.70636</Holladay1>
+			<HofferQ>5.4595</HofferQ>
+			<Holladay1>1.7064</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="748">
@@ -13733,12 +14133,12 @@
 		<Constants type="optimized" results="82">
 			<SRKt>118.8507</SRKt>
 			<Haigis>
-				<a0>1.22278</a0>
+				<a0>1.2228</a0>
 				<a1>0.4</a1>
 				<a2>0.1</a2>
 			</Haigis>
-			<HofferQ>5.45952</HofferQ>
-			<Holladay1>1.70636</Holladay1>
+			<HofferQ>5.4595</HofferQ>
+			<Holladay1>1.7064</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="1042">
@@ -13773,12 +14173,12 @@
 			<Ultrasound>118</Ultrasound>
 			<SRKt>118.851</SRKt>
 			<Haigis>
-				<a0>1.2228</a0>
+				<a0>1.223</a0>
 				<a1>0.4</a1>
 				<a2>0.1</a2>
 			</Haigis>
-			<HofferQ>5.4595</HofferQ>
-			<Holladay1>1.7064</Holladay1>
+			<HofferQ>5.46</HofferQ>
+			<Holladay1>1.706</Holladay1>
 			<Barrett>
 				<LF></LF>
 				<DF></DF>
@@ -13792,8 +14192,8 @@
 				<a1>0.4</a1>
 				<a2>0.1</a2>
 			</Haigis>
-			<HofferQ>5.33629</HofferQ>
-			<Holladay1>1.59005</Holladay1>
+			<HofferQ>5.3363</HofferQ>
+			<Holladay1>1.5901</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="2272">
@@ -13858,12 +14258,12 @@
 			<Ultrasound>118</Ultrasound>
 			<SRKt>118.851</SRKt>
 			<Haigis>
-				<a0>1.2228</a0>
+				<a0>1.223</a0>
 				<a1>0.4</a1>
 				<a2>0.1</a2>
 			</Haigis>
-			<HofferQ>5.4595</HofferQ>
-			<Holladay1>1.7064</Holladay1>
+			<HofferQ>5.46</HofferQ>
+			<Holladay1>1.706</Holladay1>
 			<Barrett>
 				<LF></LF>
 				<DF></DF>
@@ -13877,8 +14277,8 @@
 				<a1>0.4</a1>
 				<a2>0.1</a2>
 			</Haigis>
-			<HofferQ>5.33629</HofferQ>
-			<Holladay1>1.59005</Holladay1>
+			<HofferQ>5.3363</HofferQ>
+			<Holladay1>1.5901</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="1741">
@@ -14148,12 +14548,12 @@
 		<Constants type="optimized" results="52">
 			<SRKt>118.1539</SRKt>
 			<Haigis>
-				<a0>0.71143</a0>
+				<a0>0.7114</a0>
 				<a1>0.4</a1>
 				<a2>0.1</a2>
 			</Haigis>
-			<HofferQ>4.96658</HofferQ>
-			<Holladay1>1.27186</Holladay1>
+			<HofferQ>4.9666</HofferQ>
+			<Holladay1>1.2719</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="702">
@@ -14288,12 +14688,12 @@
 		<Constants type="optimized" results="58">
 			<SRKt>118.8682</SRKt>
 			<Haigis>
-				<a0>1.37293</a0>
+				<a0>1.3729</a0>
 				<a1>0.4</a1>
 				<a2>0.1</a2>
 			</Haigis>
-			<HofferQ>5.55294</HofferQ>
-			<Holladay1>1.73094</Holladay1>
+			<HofferQ>5.5529</HofferQ>
+			<Holladay1>1.7309</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="706">
@@ -14413,12 +14813,12 @@
 		<Constants type="optimized" results="58">
 			<SRKt>118.8682</SRKt>
 			<Haigis>
-				<a0>1.37293</a0>
+				<a0>1.3729</a0>
 				<a1>0.4</a1>
 				<a2>0.1</a2>
 			</Haigis>
-			<HofferQ>5.55294</HofferQ>
-			<Holladay1>1.73094</Holladay1>
+			<HofferQ>5.5529</HofferQ>
+			<Holladay1>1.7309</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="2323">
@@ -14473,12 +14873,12 @@
 		<Constants type="optimized" results="61">
 			<SRKt>118.8719</SRKt>
 			<Haigis>
-				<a0>1.28845</a0>
+				<a0>1.2885</a0>
 				<a1>0.4</a1>
 				<a2>0.1</a2>
 			</Haigis>
-			<HofferQ>5.46428</HofferQ>
-			<Holladay1>1.71563</Holladay1>
+			<HofferQ>5.4643</HofferQ>
+			<Holladay1>1.7156</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="2540">
@@ -14998,12 +15398,12 @@
 		<Constants type="optimized" results="51">
 			<SRKt>118.3412</SRKt>
 			<Haigis>
-				<a0>1.05582</a0>
+				<a0>1.0558</a0>
 				<a1>0.4</a1>
 				<a2>0.1</a2>
 			</Haigis>
-			<HofferQ>5.29375</HofferQ>
-			<Holladay1>1.44379</Holladay1>
+			<HofferQ>5.2938</HofferQ>
+			<Holladay1>1.4438</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="701">
@@ -15068,12 +15468,12 @@
 		<Constants type="optimized" results="70">
 			<SRKt>118.7288</SRKt>
 			<Haigis>
-				<a0>1.28826</a0>
+				<a0>1.2883</a0>
 				<a1>0.4</a1>
 				<a2>0.1</a2>
 			</Haigis>
-			<HofferQ>5.42041</HofferQ>
-			<Holladay1>1.62866</Holladay1>
+			<HofferQ>5.4204</HofferQ>
+			<Holladay1>1.6287</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="703">
@@ -15138,12 +15538,12 @@
 		<Constants type="optimized" results="61">
 			<SRKt>118.8719</SRKt>
 			<Haigis>
-				<a0>1.28845</a0>
+				<a0>1.2885</a0>
 				<a1>0.4</a1>
 				<a2>0.1</a2>
 			</Haigis>
-			<HofferQ>5.46428</HofferQ>
-			<Holladay1>1.71563</Holladay1>
+			<HofferQ>5.4643</HofferQ>
+			<Holladay1>1.7156</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="705">
@@ -15201,14 +15601,14 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="418">
-			<SRKt>118.78294</SRKt>
+			<SRKt>118.7829</SRKt>
 			<Haigis>
-				<a0>2.58756</a0>
-				<a1>0.27375</a1>
-				<a2>0.05448</a2>
+				<a0>2.5876</a0>
+				<a1>0.2738</a1>
+				<a2>0.0545</a2>
 			</Haigis>
-			<HofferQ>5.35503</HofferQ>
-			<Holladay1>1.61939</Holladay1>
+			<HofferQ>5.355</HofferQ>
+			<Holladay1>1.6194</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="709">
@@ -15579,12 +15979,12 @@
 		<Constants type="optimized" results="147">
 			<SRKt>118.5942</SRKt>
 			<Haigis>
-				<a0>-0.83083</a0>
-				<a1>0.28055</a1>
-				<a2>0.19788</a2>
+				<a0>-0.8308</a0>
+				<a1>0.2806</a1>
+				<a2>0.1979</a2>
 			</Haigis>
-			<HofferQ>5.28512</HofferQ>
-			<Holladay1>1.52734</Holladay1>
+			<HofferQ>5.2851</HofferQ>
+			<Holladay1>1.5273</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="126">
@@ -15744,9 +16144,9 @@
 			<Ultrasound>119.2</Ultrasound>
 			<SRKt>119.112</SRKt>
 			<Haigis>
-				<a0>-0.2676</a0>
-				<a1>0.2382</a1>
-				<a2>0.1993</a2>
+				<a0>-0.268</a0>
+				<a1>0.238</a1>
+				<a2>0.199</a2>
 			</Haigis>
 			<HofferQ>5.715</HofferQ>
 			<Holladay1>1.904</Holladay1>
@@ -15756,15 +16156,15 @@
 			</Barrett>
 			<Olsen></Olsen>
 		</Constants>
-		<Constants type="optimized" results="211">
-			<SRKt>119.11199</SRKt>
+		<Constants type="optimized" results="151">
+			<SRKt>119.112</SRKt>
 			<Haigis>
 				<a0>-0.2676</a0>
-				<a1>0.23816</a1>
+				<a1>0.2382</a1>
 				<a2>0.1993</a2>
 			</Haigis>
-			<HofferQ>5.71493</HofferQ>
-			<Holladay1>1.90418</Holladay1>
+			<HofferQ>5.7149</HofferQ>
+			<Holladay1>1.9042</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="1802">
@@ -15804,9 +16204,9 @@
 			<Ultrasound>119.2</Ultrasound>
 			<SRKt>119.112</SRKt>
 			<Haigis>
-				<a0>-0.2676</a0>
-				<a1>0.2382</a1>
-				<a2>0.1993</a2>
+				<a0>-0.268</a0>
+				<a1>0.238</a1>
+				<a2>0.199</a2>
 			</Haigis>
 			<HofferQ>5.715</HofferQ>
 			<Holladay1>1.904</Holladay1>
@@ -15816,15 +16216,15 @@
 			</Barrett>
 			<Olsen></Olsen>
 		</Constants>
-		<Constants type="optimized" results="211">
-			<SRKt>119.11199</SRKt>
+		<Constants type="optimized" results="151">
+			<SRKt>119.112</SRKt>
 			<Haigis>
 				<a0>-0.2676</a0>
-				<a1>0.23816</a1>
+				<a1>0.2382</a1>
 				<a2>0.1993</a2>
 			</Haigis>
-			<HofferQ>5.71493</HofferQ>
-			<Holladay1>1.90418</Holladay1>
+			<HofferQ>5.7149</HofferQ>
+			<Holladay1>1.9042</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="133">
@@ -16104,9 +16504,9 @@
 			<Ultrasound>118.9</Ultrasound>
 			<SRKt>119.192</SRKt>
 			<Haigis>
-				<a0>-0.4362</a0>
-				<a1>0.2496</a1>
-				<a2>0.2035</a2>
+				<a0>-0.436</a0>
+				<a1>0.25</a1>
+				<a2>0.204</a2>
 			</Haigis>
 			<HofferQ>5.682</HofferQ>
 			<Holladay1>1.918</Holladay1>
@@ -16116,15 +16516,15 @@
 			</Barrett>
 			<Olsen></Olsen>
 		</Constants>
-		<Constants type="optimized" results="2856">
-			<SRKt>119.19162</SRKt>
+		<Constants type="optimized" results="1115">
+			<SRKt>119.1916</SRKt>
 			<Haigis>
 				<a0>-0.4362</a0>
-				<a1>0.24955</a1>
-				<a2>0.20345</a2>
+				<a1>0.2496</a1>
+				<a2>0.2035</a2>
 			</Haigis>
-			<HofferQ>5.68201</HofferQ>
-			<Holladay1>1.91816</Holladay1>
+			<HofferQ>5.682</HofferQ>
+			<Holladay1>1.9182</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="940">
@@ -16164,9 +16564,9 @@
 			<Ultrasound>118.9</Ultrasound>
 			<SRKt>119.192</SRKt>
 			<Haigis>
-				<a0>-0.4362</a0>
-				<a1>0.2496</a1>
-				<a2>0.2035</a2>
+				<a0>-0.436</a0>
+				<a1>0.25</a1>
+				<a2>0.204</a2>
 			</Haigis>
 			<HofferQ>5.682</HofferQ>
 			<Holladay1>1.918</Holladay1>
@@ -16176,15 +16576,15 @@
 			</Barrett>
 			<Olsen></Olsen>
 		</Constants>
-		<Constants type="optimized" results="2856">
-			<SRKt>119.19162</SRKt>
+		<Constants type="optimized" results="1115">
+			<SRKt>119.1916</SRKt>
 			<Haigis>
 				<a0>-0.4362</a0>
-				<a1>0.24955</a1>
-				<a2>0.20345</a2>
+				<a1>0.2496</a1>
+				<a2>0.2035</a2>
 			</Haigis>
-			<HofferQ>5.68201</HofferQ>
-			<Holladay1>1.91816</Holladay1>
+			<HofferQ>5.682</HofferQ>
+			<Holladay1>1.9182</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="117">
@@ -16224,9 +16624,9 @@
 			<Ultrasound>118.9</Ultrasound>
 			<SRKt>119.192</SRKt>
 			<Haigis>
-				<a0>-0.4362</a0>
-				<a1>0.2496</a1>
-				<a2>0.2035</a2>
+				<a0>-0.436</a0>
+				<a1>0.25</a1>
+				<a2>0.204</a2>
 			</Haigis>
 			<HofferQ>5.682</HofferQ>
 			<Holladay1>1.918</Holladay1>
@@ -16236,15 +16636,15 @@
 			</Barrett>
 			<Olsen></Olsen>
 		</Constants>
-		<Constants type="optimized" results="2856">
-			<SRKt>119.19162</SRKt>
+		<Constants type="optimized" results="1115">
+			<SRKt>119.1916</SRKt>
 			<Haigis>
 				<a0>-0.4362</a0>
-				<a1>0.24955</a1>
-				<a2>0.20345</a2>
+				<a1>0.2496</a1>
+				<a2>0.2035</a2>
 			</Haigis>
-			<HofferQ>5.68201</HofferQ>
-			<Holladay1>1.91816</Holladay1>
+			<HofferQ>5.682</HofferQ>
+			<Holladay1>1.9182</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="561">
@@ -16294,9 +16694,9 @@
 			<Ultrasound>118.9</Ultrasound>
 			<SRKt>119.192</SRKt>
 			<Haigis>
-				<a0>-0.4362</a0>
-				<a1>0.2496</a1>
-				<a2>0.2035</a2>
+				<a0>-0.436</a0>
+				<a1>0.25</a1>
+				<a2>0.204</a2>
 			</Haigis>
 			<HofferQ>5.682</HofferQ>
 			<Holladay1>1.918</Holladay1>
@@ -16309,12 +16709,12 @@
 		<Constants type="optimized" results="158">
 			<SRKt>119.1366</SRKt>
 			<Haigis>
-				<a0>-0.74024</a0>
-				<a1>0.25479</a1>
-				<a2>0.21432</a2>
+				<a0>-0.7402</a0>
+				<a1>0.2548</a1>
+				<a2>0.2143</a2>
 			</Haigis>
-			<HofferQ>5.66071</HofferQ>
-			<Holladay1>1.88018</Holladay1>
+			<HofferQ>5.6607</HofferQ>
+			<Holladay1>1.8802</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="1801">
@@ -16364,9 +16764,9 @@
 			<Ultrasound>118.9</Ultrasound>
 			<SRKt>119.192</SRKt>
 			<Haigis>
-				<a0>-0.4362</a0>
-				<a1>0.2496</a1>
-				<a2>0.2035</a2>
+				<a0>-0.436</a0>
+				<a1>0.25</a1>
+				<a2>0.204</a2>
 			</Haigis>
 			<HofferQ>5.682</HofferQ>
 			<Holladay1>1.918</Holladay1>
@@ -16379,12 +16779,12 @@
 		<Constants type="optimized" results="158">
 			<SRKt>119.1366</SRKt>
 			<Haigis>
-				<a0>-0.74024</a0>
-				<a1>0.25479</a1>
-				<a2>0.21432</a2>
+				<a0>-0.7402</a0>
+				<a1>0.2548</a1>
+				<a2>0.2143</a2>
 			</Haigis>
-			<HofferQ>5.66071</HofferQ>
-			<Holladay1>1.88018</Holladay1>
+			<HofferQ>5.6607</HofferQ>
+			<Holladay1>1.8802</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="2321">
@@ -16424,9 +16824,9 @@
 			<Ultrasound>118.8</Ultrasound>
 			<SRKt>119.192</SRKt>
 			<Haigis>
-				<a0>-0.4362</a0>
-				<a1>0.2496</a1>
-				<a2>0.2035</a2>
+				<a0>-0.436</a0>
+				<a1>0.25</a1>
+				<a2>0.204</a2>
 			</Haigis>
 			<HofferQ>5.682</HofferQ>
 			<Holladay1>1.918</Holladay1>
@@ -16439,12 +16839,12 @@
 		<Constants type="optimized" results="208">
 			<SRKt>118.9134</SRKt>
 			<Haigis>
-				<a0>-0.83219</a0>
-				<a1>0.30818</a1>
-				<a2>0.20616</a2>
+				<a0>-0.8322</a0>
+				<a1>0.3082</a1>
+				<a2>0.2062</a2>
 			</Haigis>
-			<HofferQ>5.50418</HofferQ>
-			<Holladay1>1.73963</Holladay1>
+			<HofferQ>5.5042</HofferQ>
+			<Holladay1>1.7396</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="2545">
@@ -16490,9 +16890,9 @@
 			<Ultrasound>118.8</Ultrasound>
 			<SRKt>119.192</SRKt>
 			<Haigis>
-				<a0>-0.4362</a0>
-				<a1>0.2496</a1>
-				<a2>0.2035</a2>
+				<a0>-0.436</a0>
+				<a1>0.25</a1>
+				<a2>0.204</a2>
 			</Haigis>
 			<HofferQ>5.682</HofferQ>
 			<Holladay1>1918</Holladay1>
@@ -16559,9 +16959,9 @@
 			<Ultrasound>119</Ultrasound>
 			<SRKt>118.991</SRKt>
 			<Haigis>
-				<a0>-0.1558</a0>
+				<a0>-0.156</a0>
 				<a1>0.295</a1>
-				<a2>0.11775</a2>
+				<a2>0.118</a2>
 			</Haigis>
 			<HofferQ>5.529</HofferQ>
 			<Holladay1>1.776</Holladay1>
@@ -16572,14 +16972,14 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="913">
-			<SRKt>118.99094</SRKt>
+			<SRKt>118.9909</SRKt>
 			<Haigis>
-				<a0>-0.15577</a0>
+				<a0>-0.1558</a0>
 				<a1>0.295</a1>
-				<a2>0.17745</a2>
+				<a2>0.1775</a2>
 			</Haigis>
-			<HofferQ>5.52877</HofferQ>
-			<Holladay1>1.77579</Holladay1>
+			<HofferQ>5.5288</HofferQ>
+			<Holladay1>1.7758</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="2319">
@@ -16621,9 +17021,9 @@
 			<Ultrasound>119</Ultrasound>
 			<SRKt>118.991</SRKt>
 			<Haigis>
-				<a0>-0.1558</a0>
+				<a0>-0.156</a0>
 				<a1>0.295</a1>
-				<a2>0.11775</a2>
+				<a2>0.118</a2>
 			</Haigis>
 			<HofferQ>5.529</HofferQ>
 			<Holladay1>1.776</Holladay1>
@@ -16634,14 +17034,14 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="913">
-			<SRKt>118.99094</SRKt>
+			<SRKt>118.9909</SRKt>
 			<Haigis>
-				<a0>-0.15577</a0>
+				<a0>-0.1558</a0>
 				<a1>0.295</a1>
-				<a2>0.17745</a2>
+				<a2>0.1775</a2>
 			</Haigis>
-			<HofferQ>5.52877</HofferQ>
-			<Holladay1>1.77579</Holladay1>
+			<HofferQ>5.5288</HofferQ>
+			<Holladay1>1.7758</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="941">
@@ -16681,9 +17081,9 @@
 			<Ultrasound>118.9</Ultrasound>
 			<SRKt>119.192</SRKt>
 			<Haigis>
-				<a0>-0.4362</a0>
-				<a1>0.2496</a1>
-				<a2>0.2035</a2>
+				<a0>-0.436</a0>
+				<a1>0.25</a1>
+				<a2>0.204</a2>
 			</Haigis>
 			<HofferQ>5.682</HofferQ>
 			<Holladay1>1.918</Holladay1>
@@ -16693,15 +17093,15 @@
 			</Barrett>
 			<Olsen></Olsen>
 		</Constants>
-		<Constants type="optimized" results="2856">
-			<SRKt>119.19162</SRKt>
+		<Constants type="optimized" results="1115">
+			<SRKt>119.1916</SRKt>
 			<Haigis>
 				<a0>-0.4362</a0>
-				<a1>0.24955</a1>
-				<a2>0.20345</a2>
+				<a1>0.2496</a1>
+				<a2>0.2035</a2>
 			</Haigis>
-			<HofferQ>5.68201</HofferQ>
-			<Holladay1>1.91816</Holladay1>
+			<HofferQ>5.682</HofferQ>
+			<Holladay1>1.9182</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="137">
@@ -16949,14 +17349,79 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="937">
-			<SRKt>118.77996</SRKt>
+			<SRKt>118.78</SRKt>
 			<Haigis>
-				<a0>-1.62942</a0>
-				<a1>0.23463</a1>
-				<a2>0.24582</a2>
+				<a0>-1.6294</a0>
+				<a1>0.2346</a1>
+				<a2>0.2458</a2>
 			</Haigis>
 			<HofferQ>5.4008</HofferQ>
-			<Holladay1>1.65808</Holladay1>
+			<Holladay1>1.6581</Holladay1>
+		</Constants>
+	</Lens>
+	<Lens id="2564">
+		<Manufacturer>HumanOptics</Manufacturer>
+		<Name>ASPIRA-aA+</Name>
+		<Specifications>
+			<SinglePiece>yes</SinglePiece>
+			<OpticMaterial>acrylic</OpticMaterial>
+			<HapticMaterial></HapticMaterial>
+			<Preloaded>no</Preloaded>
+			<Foldable>yes</Foldable>
+			<IncisionWidth></IncisionWidth>
+			<InjectorSize></InjectorSize>
+			<Hydro>hydrophilic</Hydro>
+			<Filter>clear</Filter>
+			<RefractiveIndex></RefractiveIndex>
+			<AbbeNumber></AbbeNumber>
+			<Achromatic></Achromatic>
+			<OpticDiameter>6</OpticDiameter>
+			<HapticDiameter>12.5</HapticDiameter>
+			<OpticConcept>enhanced monofocal</OpticConcept>
+			<HapticDesign>C loop</HapticDesign>
+			<IntendedLocation>capsular bag</IntendedLocation>
+			<OpticDesign>asphere</OpticDesign>
+			<Aberration>neutral</Aberration>
+			<saCorrection></saCorrection>
+			<Toric>no</Toric>
+		</Specifications>
+		<Availability>
+			<Sphere range="1">
+				<From>0</From>
+				<To>9</To>
+				<Increment>1</Increment>
+			</Sphere>
+			<Sphere range="2">
+				<From>10</From>
+				<To>30</To>
+				<Increment>0.5</Increment>
+			</Sphere>
+		</Availability>
+		<Constants type="nominal">
+			<Ultrasound>118.6</Ultrasound>
+			<SRKt>118.6</SRKt>
+			<Haigis>
+				<a0>-0.4</a0>
+				<a1>0.152</a1>
+				<a2>0.209</a2>
+			</Haigis>
+			<HofferQ>5.24</HofferQ>
+			<Holladay1>1.63</Holladay1>
+			<Barrett>
+				<LF>1.82</LF>
+				<DF></DF>
+			</Barrett>
+			<Olsen></Olsen>
+		</Constants>
+		<Constants type="optimized" results="0">
+			<SRKt></SRKt>
+			<Haigis>
+				<a0></a0>
+				<a1></a1>
+				<a2></a2>
+			</Haigis>
+			<HofferQ></HofferQ>
+			<Holladay1></Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="218">
@@ -17009,14 +17474,14 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="937">
-			<SRKt>118.77996</SRKt>
+			<SRKt>118.78</SRKt>
 			<Haigis>
-				<a0>-1.62942</a0>
-				<a1>0.23463</a1>
-				<a2>0.24582</a2>
+				<a0>-1.6294</a0>
+				<a1>0.2346</a1>
+				<a2>0.2458</a2>
 			</Haigis>
 			<HofferQ>5.4008</HofferQ>
-			<Holladay1>1.65808</Holladay1>
+			<Holladay1>1.6581</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="148">
@@ -17079,14 +17544,79 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="937">
-			<SRKt>118.77996</SRKt>
+			<SRKt>118.78</SRKt>
 			<Haigis>
-				<a0>-1.62942</a0>
-				<a1>0.23463</a1>
-				<a2>0.24582</a2>
+				<a0>-1.6294</a0>
+				<a1>0.2346</a1>
+				<a2>0.2458</a2>
 			</Haigis>
 			<HofferQ>5.4008</HofferQ>
-			<Holladay1>1.65808</Holladay1>
+			<Holladay1>1.6581</Holladay1>
+		</Constants>
+	</Lens>
+	<Lens id="2565">
+		<Manufacturer>HumanOptics</Manufacturer>
+		<Name>ASPIRA-aAY+</Name>
+		<Specifications>
+			<SinglePiece>yes</SinglePiece>
+			<OpticMaterial>acrylic</OpticMaterial>
+			<HapticMaterial></HapticMaterial>
+			<Preloaded>no</Preloaded>
+			<Foldable>yes</Foldable>
+			<IncisionWidth></IncisionWidth>
+			<InjectorSize></InjectorSize>
+			<Hydro>hydrophilic</Hydro>
+			<Filter>yellow</Filter>
+			<RefractiveIndex></RefractiveIndex>
+			<AbbeNumber></AbbeNumber>
+			<Achromatic></Achromatic>
+			<OpticDiameter>6</OpticDiameter>
+			<HapticDiameter>12.5</HapticDiameter>
+			<OpticConcept>enhanced monofocal</OpticConcept>
+			<HapticDesign>C loop</HapticDesign>
+			<IntendedLocation>capsular bag</IntendedLocation>
+			<OpticDesign>asphere</OpticDesign>
+			<Aberration>neutral</Aberration>
+			<saCorrection></saCorrection>
+			<Toric>no</Toric>
+		</Specifications>
+		<Availability>
+			<Sphere range="1">
+				<From>0</From>
+				<To>9</To>
+				<Increment>NULL</Increment>
+			</Sphere>
+			<Sphere range="2">
+				<From>10</From>
+				<To>30</To>
+				<Increment>NULL</Increment>
+			</Sphere>
+		</Availability>
+		<Constants type="nominal">
+			<Ultrasound>118.6</Ultrasound>
+			<SRKt>118.6</SRKt>
+			<Haigis>
+				<a0>-0.4</a0>
+				<a1>0.152</a1>
+				<a2>0.209</a2>
+			</Haigis>
+			<HofferQ>5.24</HofferQ>
+			<Holladay1>1.63</Holladay1>
+			<Barrett>
+				<LF>1.82</LF>
+				<DF></DF>
+			</Barrett>
+			<Olsen></Olsen>
+		</Constants>
+		<Constants type="optimized" results="0">
+			<SRKt></SRKt>
+			<Haigis>
+				<a0></a0>
+				<a1></a1>
+				<a2></a2>
+			</Haigis>
+			<HofferQ></HofferQ>
+			<Holladay1></Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="219">
@@ -17139,14 +17669,14 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="937">
-			<SRKt>118.77996</SRKt>
+			<SRKt>118.78</SRKt>
 			<Haigis>
-				<a0>-1.62942</a0>
-				<a1>0.23463</a1>
-				<a2>0.24582</a2>
+				<a0>-1.6294</a0>
+				<a1>0.2346</a1>
+				<a2>0.2458</a2>
 			</Haigis>
 			<HofferQ>5.4008</HofferQ>
-			<Holladay1>1.65808</Holladay1>
+			<Holladay1>1.6581</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="896">
@@ -17204,14 +17734,14 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="220">
-			<SRKt>119.56808</SRKt>
+			<SRKt>119.5681</SRKt>
 			<Haigis>
-				<a0>-0.52091</a0>
-				<a1>0.26934</a1>
-				<a2>0.21524</a2>
+				<a0>-0.5209</a0>
+				<a1>0.2693</a1>
+				<a2>0.2152</a2>
 			</Haigis>
-			<HofferQ>5.92412</HofferQ>
-			<Holladay1>2.16633</Holladay1>
+			<HofferQ>5.9241</HofferQ>
+			<Holladay1>2.1663</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="1635">
@@ -17264,14 +17794,14 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="220">
-			<SRKt>119.56808</SRKt>
+			<SRKt>119.5681</SRKt>
 			<Haigis>
-				<a0>-0.52091</a0>
-				<a1>0.26934</a1>
-				<a2>0.21524</a2>
+				<a0>-0.5209</a0>
+				<a1>0.2693</a1>
+				<a2>0.2152</a2>
 			</Haigis>
-			<HofferQ>5.92412</HofferQ>
-			<Holladay1>2.16633</Holladay1>
+			<HofferQ>5.9241</HofferQ>
+			<Holladay1>2.1663</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="1633">
@@ -17324,14 +17854,14 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="220">
-			<SRKt>119.56808</SRKt>
+			<SRKt>119.5681</SRKt>
 			<Haigis>
-				<a0>-0.52091</a0>
-				<a1>0.26934</a1>
-				<a2>0.21524</a2>
+				<a0>-0.5209</a0>
+				<a1>0.2693</a1>
+				<a2>0.2152</a2>
 			</Haigis>
-			<HofferQ>5.92412</HofferQ>
-			<Holladay1>2.16633</Holladay1>
+			<HofferQ>5.9241</HofferQ>
+			<Holladay1>2.1663</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="149">
@@ -17521,14 +18051,14 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="105">
-			<SRKt>119.29305</SRKt>
+			<SRKt>119.2931</SRKt>
 			<Haigis>
-				<a0>0.63546</a0>
-				<a1>0.27699</a1>
-				<a2>0.15267</a2>
+				<a0>0.6355</a0>
+				<a1>0.277</a1>
+				<a2>0.1527</a2>
 			</Haigis>
-			<HofferQ>5.68923</HofferQ>
-			<Holladay1>1.96215</Holladay1>
+			<HofferQ>5.6892</HofferQ>
+			<Holladay1>1.9622</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="1680">
@@ -17583,14 +18113,14 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="105">
-			<SRKt>119.29305</SRKt>
+			<SRKt>119.2931</SRKt>
 			<Haigis>
-				<a0>0.63546</a0>
-				<a1>0.27699</a1>
-				<a2>0.15267</a2>
+				<a0>0.6355</a0>
+				<a1>0.277</a1>
+				<a2>0.1527</a2>
 			</Haigis>
-			<HofferQ>5.68923</HofferQ>
-			<Holladay1>1.96215</Holladay1>
+			<HofferQ>5.6892</HofferQ>
+			<Holladay1>1.9622</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="2384">
@@ -17966,15 +18496,15 @@
 			</Barrett>
 			<Olsen></Olsen>
 		</Constants>
-		<Constants type="optimized" results="1784">
-			<SRKt>118.97126</SRKt>
+		<Constants type="optimized" results="1593">
+			<SRKt>118.9713</SRKt>
 			<Haigis>
-				<a0>-0.40752</a0>
-				<a1>0.35805</a1>
-				<a2>0.18319</a2>
+				<a0>-0.4075</a0>
+				<a1>0.3581</a1>
+				<a2>0.1832</a2>
 			</Haigis>
-			<HofferQ>5.55596</HofferQ>
-			<Holladay1>1.79047</Holladay1>
+			<HofferQ>5.556</HofferQ>
+			<Holladay1>1.7905</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="700">
@@ -18206,15 +18736,15 @@
 			</Barrett>
 			<Olsen></Olsen>
 		</Constants>
-		<Constants type="optimized" results="741">
-			<SRKt>119.40756</SRKt>
+		<Constants type="optimized" results="650">
+			<SRKt>119.4076</SRKt>
 			<Haigis>
-				<a0>-1.07303</a0>
-				<a1>0.24568</a1>
-				<a2>0.23792</a2>
+				<a0>-1.073</a0>
+				<a1>0.2457</a1>
+				<a2>0.2379</a2>
 			</Haigis>
-			<HofferQ>5.80583</HofferQ>
-			<Holladay1>2.05268</Holladay1>
+			<HofferQ>5.8058</HofferQ>
+			<Holladay1>2.0527</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="2374">
@@ -18397,14 +18927,14 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="92">
-			<SRKt>118.95405</SRKt>
+			<SRKt>118.9541</SRKt>
 			<Haigis>
-				<a0>1.28304</a0>
+				<a0>1.283</a0>
 				<a1>0.4</a1>
 				<a2>0.1</a2>
 			</Haigis>
-			<HofferQ>5.45954</HofferQ>
-			<Holladay1>1.73373</Holladay1>
+			<HofferQ>5.4595</HofferQ>
+			<Holladay1>1.7337</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="1625">
@@ -18526,12 +19056,12 @@
 		<Constants type="optimized" results="134">
 			<SRKt>119.2597</SRKt>
 			<Haigis>
-				<a0>-2.36372</a0>
-				<a1>0.22007</a1>
-				<a2>0.29328</a2>
+				<a0>-2.3637</a0>
+				<a1>0.2201</a1>
+				<a2>0.2933</a2>
 			</Haigis>
-			<HofferQ>5.77617</HofferQ>
-			<Holladay1>1.99107</Holladay1>
+			<HofferQ>5.7762</HofferQ>
+			<Holladay1>1.9911</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="1740">
@@ -18908,12 +19438,12 @@
 		<Constants type="optimized" results="134">
 			<SRKt>119.2597</SRKt>
 			<Haigis>
-				<a0>-2.36372</a0>
-				<a1>0.22007</a1>
-				<a2>0.29328</a2>
+				<a0>-2.3637</a0>
+				<a1>0.2201</a1>
+				<a2>0.2933</a2>
 			</Haigis>
-			<HofferQ>5.77617</HofferQ>
-			<Holladay1>1.99107</Holladay1>
+			<HofferQ>5.7762</HofferQ>
+			<Holladay1>1.9911</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="578">
@@ -18965,15 +19495,15 @@
 			</Barrett>
 			<Olsen></Olsen>
 		</Constants>
-		<Constants type="optimized" results="741">
-			<SRKt>119.40756</SRKt>
+		<Constants type="optimized" results="650">
+			<SRKt>119.4076</SRKt>
 			<Haigis>
-				<a0>-1.07303</a0>
-				<a1>0.24568</a1>
-				<a2>0.23792</a2>
+				<a0>-1.073</a0>
+				<a1>0.2457</a1>
+				<a2>0.2379</a2>
 			</Haigis>
-			<HofferQ>5.80583</HofferQ>
-			<Holladay1>2.05268</Holladay1>
+			<HofferQ>5.8058</HofferQ>
+			<Holladay1>2.0527</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="579">
@@ -19145,15 +19675,15 @@
 			</Barrett>
 			<Olsen></Olsen>
 		</Constants>
-		<Constants type="optimized" results="741">
-			<SRKt>119.40756</SRKt>
+		<Constants type="optimized" results="650">
+			<SRKt>119.4076</SRKt>
 			<Haigis>
-				<a0>-1.07303</a0>
-				<a1>0.24568</a1>
-				<a2>0.23792</a2>
+				<a0>-1.073</a0>
+				<a1>0.2457</a1>
+				<a2>0.2379</a2>
 			</Haigis>
-			<HofferQ>5.80583</HofferQ>
-			<Holladay1>2.05268</Holladay1>
+			<HofferQ>5.8058</HofferQ>
+			<Holladay1>2.0527</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="697">
@@ -19470,14 +20000,14 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="92">
-			<SRKt>118.95405</SRKt>
+			<SRKt>118.9541</SRKt>
 			<Haigis>
-				<a0>1.28304</a0>
+				<a0>1.283</a0>
 				<a1>0.4</a1>
 				<a2>0.1</a2>
 			</Haigis>
-			<HofferQ>5.45954</HofferQ>
-			<Holladay1>1.73373</Holladay1>
+			<HofferQ>5.4595</HofferQ>
+			<Holladay1>1.7337</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="1626">
@@ -20044,12 +20574,12 @@
 		<Constants type="optimized" results="487">
 			<SRKt>119.056</SRKt>
 			<Haigis>
-				<a0>-0.18858</a0>
-				<a1>0.17155</a1>
+				<a0>-0.1886</a0>
+				<a1>0.1716</a1>
 				<a2>0.1977</a2>
 			</Haigis>
-			<HofferQ>5.59053</HofferQ>
-			<Holladay1>1.82584</Holladay1>
+			<HofferQ>5.5905</HofferQ>
+			<Holladay1>1.8258</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="1679">
@@ -21110,12 +21640,12 @@
 		<Constants type="optimized" results="24">
 			<SRKt>119.4013</SRKt>
 			<Haigis>
-				<a0>1.59987</a0>
+				<a0>1.5999</a0>
 				<a1>0.4</a1>
 				<a2>0.1</a2>
 			</Haigis>
-			<HofferQ>5.74072</HofferQ>
-			<Holladay1>2.03505</Holladay1>
+			<HofferQ>5.7407</HofferQ>
+			<Holladay1>2.0351</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="1027">
@@ -21374,15 +21904,15 @@
 			</Barrett>
 			<Olsen></Olsen>
 		</Constants>
-		<Constants type="optimized" results="5208">
-			<SRKt>118.38831</SRKt>
+		<Constants type="optimized" results="3176">
+			<SRKt>118.3883</SRKt>
 			<Haigis>
-				<a0>0.25349</a0>
-				<a1>0.23827</a1>
-				<a2>0.15254</a2>
+				<a0>0.2535</a0>
+				<a1>0.2383</a1>
+				<a2>0.1525</a2>
 			</Haigis>
 			<HofferQ>5.1798</HofferQ>
-			<Holladay1>1.41579</Holladay1>
+			<Holladay1>1.4158</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="1029">
@@ -21514,15 +22044,15 @@
 			</Barrett>
 			<Olsen></Olsen>
 		</Constants>
-		<Constants type="optimized" results="5208">
-			<SRKt>118.38831</SRKt>
+		<Constants type="optimized" results="3176">
+			<SRKt>118.3883</SRKt>
 			<Haigis>
-				<a0>0.25349</a0>
-				<a1>0.23827</a1>
-				<a2>0.15254</a2>
+				<a0>0.2535</a0>
+				<a1>0.2383</a1>
+				<a2>0.1525</a2>
 			</Haigis>
 			<HofferQ>5.1798</HofferQ>
-			<Holladay1>1.41579</Holladay1>
+			<Holladay1>1.4158</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="1030">
@@ -22358,6 +22888,71 @@
 			<Holladay1>1.6</Holladay1>
 			<Barrett>
 				<LF></LF>
+				<DF></DF>
+			</Barrett>
+			<Olsen></Olsen>
+		</Constants>
+		<Constants type="optimized" results="0">
+			<SRKt></SRKt>
+			<Haigis>
+				<a0></a0>
+				<a1></a1>
+				<a2></a2>
+			</Haigis>
+			<HofferQ></HofferQ>
+			<Holladay1></Holladay1>
+		</Constants>
+	</Lens>
+	<Lens id="2566">
+		<Manufacturer>Medicontur</Manufacturer>
+		<Name>613AD</Name>
+		<Specifications>
+			<SinglePiece>yes</SinglePiece>
+			<OpticMaterial>acrylic</OpticMaterial>
+			<HapticMaterial></HapticMaterial>
+			<Preloaded>no</Preloaded>
+			<Foldable>yes</Foldable>
+			<IncisionWidth>1.8</IncisionWidth>
+			<InjectorSize>1.8</InjectorSize>
+			<Hydro>hydrophilic</Hydro>
+			<Filter>clear</Filter>
+			<RefractiveIndex>1.46</RefractiveIndex>
+			<AbbeNumber>58</AbbeNumber>
+			<Achromatic></Achromatic>
+			<OpticDiameter>6</OpticDiameter>
+			<HapticDiameter>13</HapticDiameter>
+			<OpticConcept>monofocal</OpticConcept>
+			<HapticDesign>Posterior vaulting C-loops</HapticDesign>
+			<IntendedLocation>capsular bag</IntendedLocation>
+			<OpticDesign>asphere</OpticDesign>
+			<Aberration>neutral</Aberration>
+			<saCorrection></saCorrection>
+			<Toric>no</Toric>
+		</Specifications>
+		<Availability>
+			<Sphere range="1">
+				<From>6</From>
+				<To>9</To>
+				<Increment>1</Increment>
+			</Sphere>
+			<Sphere range="2">
+				<From>10</From>
+				<To>30</To>
+				<Increment>0.5</Increment>
+			</Sphere>
+		</Availability>
+		<Constants type="nominal">
+			<Ultrasound>118.9</Ultrasound>
+			<SRKt>118.9</SRKt>
+			<Haigis>
+				<a0>1.839</a0>
+				<a1>0.4</a1>
+				<a2>0.1</a2>
+			</Haigis>
+			<HofferQ>5.49</HofferQ>
+			<Holladay1>1.73</Holladay1>
+			<Barrett>
+				<LF>1.83</LF>
 				<DF></DF>
 			</Barrett>
 			<Olsen></Olsen>
@@ -24313,8 +24908,8 @@
 				<a1>0.4</a1>
 				<a2>0.1</a2>
 			</Haigis>
-			<HofferQ>5.35838</HofferQ>
-			<Holladay1>1.60515</Holladay1>
+			<HofferQ>5.3584</HofferQ>
+			<Holladay1>1.6052</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="840">
@@ -24383,8 +24978,8 @@
 				<a1>0.4</a1>
 				<a2>0.1</a2>
 			</Haigis>
-			<HofferQ>5.35838</HofferQ>
-			<Holladay1>1.60515</Holladay1>
+			<HofferQ>5.3584</HofferQ>
+			<Holladay1>1.6052</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="830">
@@ -24449,12 +25044,12 @@
 		<Constants type="optimized" results="248">
 			<SRKt>118.8939</SRKt>
 			<Haigis>
-				<a0>0.22172</a0>
-				<a1>0.17208</a1>
-				<a2>0.17581</a2>
+				<a0>0.2217</a0>
+				<a1>0.1721</a1>
+				<a2>0.1758</a2>
 			</Haigis>
-			<HofferQ>5.47251</HofferQ>
-			<Holladay1>1.72089</Holladay1>
+			<HofferQ>5.4725</HofferQ>
+			<Holladay1>1.7209</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="829">
@@ -24529,12 +25124,12 @@
 		<Constants type="optimized" results="248">
 			<SRKt>118.8939</SRKt>
 			<Haigis>
-				<a0>0.22172</a0>
-				<a1>0.17208</a1>
-				<a2>0.17581</a2>
+				<a0>0.2217</a0>
+				<a1>0.1721</a1>
+				<a2>0.1758</a2>
 			</Haigis>
-			<HofferQ>5.47251</HofferQ>
-			<Holladay1>1.72089</Holladay1>
+			<HofferQ>5.4725</HofferQ>
+			<Holladay1>1.7209</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="832">
@@ -24609,12 +25204,12 @@
 		<Constants type="optimized" results="248">
 			<SRKt>118.8939</SRKt>
 			<Haigis>
-				<a0>0.22172</a0>
-				<a1>0.17208</a1>
-				<a2>0.17581</a2>
+				<a0>0.2217</a0>
+				<a1>0.1721</a1>
+				<a2>0.1758</a2>
 			</Haigis>
-			<HofferQ>5.47251</HofferQ>
-			<Holladay1>1.72089</Holladay1>
+			<HofferQ>5.4725</HofferQ>
+			<Holladay1>1.7209</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="831">
@@ -24679,12 +25274,12 @@
 		<Constants type="optimized" results="248">
 			<SRKt>118.8939</SRKt>
 			<Haigis>
-				<a0>0.22172</a0>
-				<a1>0.17208</a1>
-				<a2>0.17581</a2>
+				<a0>0.2217</a0>
+				<a1>0.1721</a1>
+				<a2>0.1758</a2>
 			</Haigis>
-			<HofferQ>5.47251</HofferQ>
-			<Holladay1>1.72089</Holladay1>
+			<HofferQ>5.4725</HofferQ>
+			<Holladay1>1.7209</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="2342">
@@ -24759,12 +25354,12 @@
 		<Constants type="optimized" results="248">
 			<SRKt>118.8939</SRKt>
 			<Haigis>
-				<a0>0.22172</a0>
-				<a1>0.17208</a1>
-				<a2>0.17581</a2>
+				<a0>0.2217</a0>
+				<a1>0.1721</a1>
+				<a2>0.1758</a2>
 			</Haigis>
-			<HofferQ>5.47251</HofferQ>
-			<Holladay1>1.72089</Holladay1>
+			<HofferQ>5.4725</HofferQ>
+			<Holladay1>1.7209</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="2343">
@@ -24839,12 +25434,12 @@
 		<Constants type="optimized" results="248">
 			<SRKt>118.8939</SRKt>
 			<Haigis>
-				<a0>0.22172</a0>
-				<a1>0.17208</a1>
-				<a2>0.17581</a2>
+				<a0>0.2217</a0>
+				<a1>0.1721</a1>
+				<a2>0.1758</a2>
 			</Haigis>
-			<HofferQ>5.47251</HofferQ>
-			<Holladay1>1.72089</Holladay1>
+			<HofferQ>5.4725</HofferQ>
+			<Holladay1>1.7209</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="2341">
@@ -24912,14 +25507,14 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="243">
-			<SRKt>118.76188</SRKt>
+			<SRKt>118.7619</SRKt>
 			<Haigis>
-				<a0>-0.02788</a0>
+				<a0>-0.0279</a0>
 				<a1>0.241</a1>
-				<a2>0.17471</a2>
+				<a2>0.1747</a2>
 			</Haigis>
-			<HofferQ>5.40207</HofferQ>
-			<Holladay1>1.64383</Holladay1>
+			<HofferQ>5.4021</HofferQ>
+			<Holladay1>1.6438</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="833">
@@ -24987,14 +25582,14 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="243">
-			<SRKt>118.76188</SRKt>
+			<SRKt>118.7619</SRKt>
 			<Haigis>
-				<a0>-0.02788</a0>
+				<a0>-0.0279</a0>
 				<a1>0.241</a1>
-				<a2>0.17471</a2>
+				<a2>0.1747</a2>
 			</Haigis>
-			<HofferQ>5.40207</HofferQ>
-			<Holladay1>1.64383</Holladay1>
+			<HofferQ>5.4021</HofferQ>
+			<Holladay1>1.6438</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="2386">
@@ -25985,11 +26580,11 @@
 		<Constants type="optimized" results="110">
 			<SRKt>118.8213</SRKt>
 			<Haigis>
-				<a0>0.12626</a0>
-				<a1>0.35486</a1>
-				<a2>0.15661</a2>
+				<a0>0.1263</a0>
+				<a1>0.3549</a1>
+				<a2>0.1566</a2>
 			</Haigis>
-			<HofferQ>5.51402</HofferQ>
+			<HofferQ>5.514</HofferQ>
 			<Holladay1>1.7206</Holladay1>
 		</Constants>
 	</Lens>
@@ -26379,6 +26974,61 @@
 			<Holladay1></Holladay1>
 		</Constants>
 	</Lens>
+	<Lens id="2567">
+		<Manufacturer>Ophthalmo Pro</Manufacturer>
+		<Name>All Range</Name>
+		<Specifications>
+			<SinglePiece></SinglePiece>
+			<OpticMaterial></OpticMaterial>
+			<HapticMaterial></HapticMaterial>
+			<Preloaded></Preloaded>
+			<Foldable></Foldable>
+			<IncisionWidth></IncisionWidth>
+			<InjectorSize></InjectorSize>
+			<Hydro></Hydro>
+			<Filter></Filter>
+			<RefractiveIndex></RefractiveIndex>
+			<AbbeNumber></AbbeNumber>
+			<Achromatic></Achromatic>
+			<OpticDiameter></OpticDiameter>
+			<HapticDiameter></HapticDiameter>
+			<OpticConcept></OpticConcept>
+			<HapticDesign></HapticDesign>
+			<IntendedLocation></IntendedLocation>
+			<OpticDesign></OpticDesign>
+			<Aberration></Aberration>
+			<saCorrection></saCorrection>
+			<Toric></Toric>
+		</Specifications>
+		<Availability>
+		</Availability>
+		<Constants type="nominal">
+			<Ultrasound></Ultrasound>
+			<SRKt></SRKt>
+			<Haigis>
+				<a0></a0>
+				<a1></a1>
+				<a2></a2>
+			</Haigis>
+			<HofferQ></HofferQ>
+			<Holladay1></Holladay1>
+			<Barrett>
+				<LF></LF>
+				<DF></DF>
+			</Barrett>
+			<Olsen></Olsen>
+		</Constants>
+		<Constants type="optimized" results="0">
+			<SRKt></SRKt>
+			<Haigis>
+				<a0></a0>
+				<a1></a1>
+				<a2></a2>
+			</Haigis>
+			<HofferQ></HofferQ>
+			<Holladay1></Holladay1>
+		</Constants>
+	</Lens>
 	<Lens id="2453">
 		<Manufacturer>Ophthalmo Pro</Manufacturer>
 		<Name>MAX Vision</Name>
@@ -26466,19 +27116,26 @@
 			<saCorrection>-0.2</saCorrection>
 			<Toric>yes</Toric>
 		</Specifications>
-		<Availability refractivePower="" tNotation="yes">
+		<Availability refractivePower="spherical equivalent" tNotation="no">
 			<Sphere range="1">
 				<From>10</From>
 				<To>30</To>
 				<Increment>0.5</Increment>
 			</Sphere>
-			<Cylinder>
-				<Power label="AT1">1</Power>
-				<Power label="AT2">1.5</Power>
-				<Power label="AT3">2.25</Power>
-				<Power label="AT4">3</Power>
-				<Power label="AT5">4</Power>
-				<Power label="AT6">4.5</Power>
+			<Cylinder range="1">
+				<From>1</From>
+				<To>1.5</To>
+				<Increment>0.5</Increment>
+			</Cylinder>
+			<Cylinder range="2">
+				<From>2.25</From>
+				<To>3</To>
+				<Increment>0.75</Increment>
+			</Cylinder>
+			<Cylinder range="3">
+				<From>4</From>
+				<To>4.5</To>
+				<Increment>0.5</Increment>
 			</Cylinder>
 		</Availability>
 		<Constants type="nominal">
@@ -26564,8 +27221,8 @@
 				<a1>0.4</a1>
 				<a2>0.1</a2>
 			</Haigis>
-			<HofferQ>5.68846</HofferQ>
-			<Holladay1>1.94929</Holladay1>
+			<HofferQ>5.6885</HofferQ>
+			<Holladay1>1.9493</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="1844">
@@ -26594,19 +27251,26 @@
 			<saCorrection>-0.2</saCorrection>
 			<Toric>yes</Toric>
 		</Specifications>
-		<Availability refractivePower="" tNotation="yes">
+		<Availability refractivePower="spherical equivalent" tNotation="no">
 			<Sphere range="1">
 				<From>5</From>
 				<To>36</To>
 				<Increment>0.5</Increment>
 			</Sphere>
-			<Cylinder>
-				<Power label="T1">1</Power>
-				<Power label="T2">1.5</Power>
-				<Power label="T3">2.25</Power>
-				<Power label="T4">3</Power>
-				<Power label="T5">4</Power>
-				<Power label="T6">4.5</Power>
+			<Cylinder range="1">
+				<From>1</From>
+				<To>1.5</To>
+				<Increment>0.5</Increment>
+			</Cylinder>
+			<Cylinder range="2">
+				<From>2.25</From>
+				<To>3</To>
+				<Increment>0.75</Increment>
+			</Cylinder>
+			<Cylinder range="3">
+				<From>4</From>
+				<To>4.5</To>
+				<Increment>0.5</Increment>
 			</Cylinder>
 		</Availability>
 		<Constants type="nominal">
@@ -26632,8 +27296,8 @@
 				<a1>0.4</a1>
 				<a2>0.1</a2>
 			</Haigis>
-			<HofferQ>5.68846</HofferQ>
-			<Holladay1>1.94929</Holladay1>
+			<HofferQ>5.6885</HofferQ>
+			<Holladay1>1.9493</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="1845">
@@ -26662,19 +27326,26 @@
 			<saCorrection>-0.2</saCorrection>
 			<Toric>yes</Toric>
 		</Specifications>
-		<Availability refractivePower="" tNotation="yes">
+		<Availability refractivePower="spherical equivalent" tNotation="no">
 			<Sphere range="1">
 				<From>5</From>
 				<To>36</To>
 				<Increment>0.5</Increment>
 			</Sphere>
-			<Cylinder>
-				<Power label="T1">1</Power>
-				<Power label="T2">1.5</Power>
-				<Power label="T3">2.25</Power>
-				<Power label="T4">3</Power>
-				<Power label="T5">4</Power>
-				<Power label="T6">4.5</Power>
+			<Cylinder range="1">
+				<From>1</From>
+				<To>1.5</To>
+				<Increment>0.5</Increment>
+			</Cylinder>
+			<Cylinder range="2">
+				<From>2.25</From>
+				<To>3</To>
+				<Increment>0.75</Increment>
+			</Cylinder>
+			<Cylinder range="3">
+				<From>4</From>
+				<To>4.5</To>
+				<Increment>0.5</Increment>
 			</Cylinder>
 		</Availability>
 		<Constants type="nominal">
@@ -26700,8 +27371,8 @@
 				<a1>0.4</a1>
 				<a2>0.1</a2>
 			</Haigis>
-			<HofferQ>5.68846</HofferQ>
-			<Holladay1>1.94929</Holladay1>
+			<HofferQ>5.6885</HofferQ>
+			<Holladay1>1.9493</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="1141">
@@ -26760,8 +27431,8 @@
 				<a1>0.4</a1>
 				<a2>0.1</a2>
 			</Haigis>
-			<HofferQ>5.68846</HofferQ>
-			<Holladay1>1.94929</Holladay1>
+			<HofferQ>5.6885</HofferQ>
+			<Holladay1>1.9493</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="2447">
@@ -26850,19 +27521,26 @@
 			<saCorrection>-0.2</saCorrection>
 			<Toric>yes</Toric>
 		</Specifications>
-		<Availability refractivePower="" tNotation="yes">
+		<Availability refractivePower="spherical equivalent" tNotation="no">
 			<Sphere range="1">
 				<From>10</From>
 				<To>34</To>
 				<Increment>0.5</Increment>
 			</Sphere>
-			<Cylinder>
-				<Power label="AT1">1</Power>
-				<Power label="AT2">1.5</Power>
-				<Power label="AT3">2.25</Power>
-				<Power label="AT4">3</Power>
-				<Power label="AT5">4</Power>
-				<Power label="AT6">4.5</Power>
+			<Cylinder range="1">
+				<From>1</From>
+				<To>1.5</To>
+				<Increment>0.5</Increment>
+			</Cylinder>
+			<Cylinder range="2">
+				<From>2.25</From>
+				<To>3</To>
+				<Increment>0.75</Increment>
+			</Cylinder>
+			<Cylinder range="3">
+				<From>4</From>
+				<To>4.5</To>
+				<Increment>0.5</Increment>
 			</Cylinder>
 		</Availability>
 		<Constants type="nominal">
@@ -29116,8 +29794,8 @@
 				<a1>0.4</a1>
 				<a2>0.1</a2>
 			</Haigis>
-			<HofferQ>5.35838</HofferQ>
-			<Holladay1>1.60515</Holladay1>
+			<HofferQ>5.3584</HofferQ>
+			<Holladay1>1.6052</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="955">
@@ -29181,8 +29859,8 @@
 				<a1>0.4</a1>
 				<a2>0.1</a2>
 			</Haigis>
-			<HofferQ>5.35838</HofferQ>
-			<Holladay1>1.60515</Holladay1>
+			<HofferQ>5.3584</HofferQ>
+			<Holladay1>1.6052</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="1111">
@@ -29242,12 +29920,12 @@
 		<Constants type="optimized" results="248">
 			<SRKt>118.8939</SRKt>
 			<Haigis>
-				<a0>0.22172</a0>
-				<a1>0.17208</a1>
-				<a2>0.17581</a2>
+				<a0>0.2217</a0>
+				<a1>0.1721</a1>
+				<a2>0.1758</a2>
 			</Haigis>
-			<HofferQ>5.47251</HofferQ>
-			<Holladay1>1.72089</Holladay1>
+			<HofferQ>5.4725</HofferQ>
+			<Holladay1>1.7209</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="1110">
@@ -29307,12 +29985,12 @@
 		<Constants type="optimized" results="248">
 			<SRKt>118.8939</SRKt>
 			<Haigis>
-				<a0>0.22172</a0>
-				<a1>0.17208</a1>
-				<a2>0.17581</a2>
+				<a0>0.2217</a0>
+				<a1>0.1721</a1>
+				<a2>0.1758</a2>
 			</Haigis>
-			<HofferQ>5.47251</HofferQ>
-			<Holladay1>1.72089</Holladay1>
+			<HofferQ>5.4725</HofferQ>
+			<Holladay1>1.7209</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="957">
@@ -29372,12 +30050,12 @@
 		<Constants type="optimized" results="248">
 			<SRKt>118.8939</SRKt>
 			<Haigis>
-				<a0>0.22172</a0>
-				<a1>0.17208</a1>
-				<a2>0.17581</a2>
+				<a0>0.2217</a0>
+				<a1>0.1721</a1>
+				<a2>0.1758</a2>
 			</Haigis>
-			<HofferQ>5.47251</HofferQ>
-			<Holladay1>1.72089</Holladay1>
+			<HofferQ>5.4725</HofferQ>
+			<Holladay1>1.7209</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="956">
@@ -29437,12 +30115,12 @@
 		<Constants type="optimized" results="248">
 			<SRKt>118.8939</SRKt>
 			<Haigis>
-				<a0>0.22172</a0>
-				<a1>0.17208</a1>
-				<a2>0.17581</a2>
+				<a0>0.2217</a0>
+				<a1>0.1721</a1>
+				<a2>0.1758</a2>
 			</Haigis>
-			<HofferQ>5.47251</HofferQ>
-			<Holladay1>1.72089</Holladay1>
+			<HofferQ>5.4725</HofferQ>
+			<Holladay1>1.7209</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="2433">
@@ -29692,12 +30370,12 @@
 		<Constants type="optimized" results="89">
 			<SRKt>118.702</SRKt>
 			<Haigis>
-				<a0>1.36326</a0>
+				<a0>1.3633</a0>
 				<a1>0.4</a1>
 				<a2>0.1</a2>
 			</Haigis>
-			<HofferQ>5.46514</HofferQ>
-			<Holladay1>1.64937</Holladay1>
+			<HofferQ>5.4651</HofferQ>
+			<Holladay1>1.6494</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="1721">
@@ -29749,14 +30427,14 @@
 			</Barrett>
 			<Olsen></Olsen>
 		</Constants>
-		<Constants type="optimized" results="350">
-			<SRKt>118.41553</SRKt>
+		<Constants type="optimized" results="349">
+			<SRKt>118.4155</SRKt>
 			<Haigis>
-				<a0>0.14811</a0>
-				<a1>0.23695</a1>
-				<a2>0.16123</a2>
+				<a0>0.1481</a0>
+				<a1>0.237</a1>
+				<a2>0.1612</a2>
 			</Haigis>
-			<HofferQ>5.17765</HofferQ>
+			<HofferQ>5.1777</HofferQ>
 			<Holladay1>1.4365</Holladay1>
 		</Constants>
 	</Lens>
@@ -29814,14 +30492,14 @@
 			</Barrett>
 			<Olsen></Olsen>
 		</Constants>
-		<Constants type="optimized" results="350">
-			<SRKt>118.41553</SRKt>
+		<Constants type="optimized" results="349">
+			<SRKt>118.4155</SRKt>
 			<Haigis>
-				<a0>0.14811</a0>
-				<a1>0.23695</a1>
-				<a2>0.16123</a2>
+				<a0>0.1481</a0>
+				<a1>0.237</a1>
+				<a2>0.1612</a2>
 			</Haigis>
-			<HofferQ>5.17765</HofferQ>
+			<HofferQ>5.1777</HofferQ>
 			<Holladay1>1.4365</Holladay1>
 		</Constants>
 	</Lens>
@@ -29876,15 +30554,15 @@
 			</Barrett>
 			<Olsen></Olsen>
 		</Constants>
-		<Constants type="optimized" results="131">
-			<SRKt>118.42282</SRKt>
+		<Constants type="optimized" results="125">
+			<SRKt>118.4228</SRKt>
 			<Haigis>
-				<a0>-0.36507</a0>
-				<a1>0.37883</a1>
-				<a2>0.15842</a2>
+				<a0>-0.3651</a0>
+				<a1>0.3788</a1>
+				<a2>0.1584</a2>
 			</Haigis>
-			<HofferQ>5.16129</HofferQ>
-			<Holladay1>1.41837</Holladay1>
+			<HofferQ>5.1613</HofferQ>
+			<Holladay1>1.4184</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="2517">
@@ -29943,15 +30621,15 @@
 			</Barrett>
 			<Olsen></Olsen>
 		</Constants>
-		<Constants type="optimized" results="131">
-			<SRKt>118.42282</SRKt>
+		<Constants type="optimized" results="125">
+			<SRKt>118.4228</SRKt>
 			<Haigis>
-				<a0>-0.36507</a0>
-				<a1>0.37883</a1>
-				<a2>0.15842</a2>
+				<a0>-0.3651</a0>
+				<a1>0.3788</a1>
+				<a2>0.1584</a2>
 			</Haigis>
-			<HofferQ>5.16129</HofferQ>
-			<Holladay1>1.41837</Holladay1>
+			<HofferQ>5.1613</HofferQ>
+			<Holladay1>1.4184</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="918">
@@ -32346,8 +33024,8 @@
 			<SRKt>118.81</SRKt>
 			<Haigis>
 				<a0>-2.906</a0>
-				<a1>0.4931</a1>
-				<a2>0.2698</a2>
+				<a1>0.493</a1>
+				<a2>0.27</a2>
 			</Haigis>
 			<HofferQ>5.53</HofferQ>
 			<Holladay1>1.71</Holladay1>
@@ -32485,7 +33163,7 @@
 			<Holladay1>1.54</Holladay1>
 			<Barrett>
 				<LF>1.48</LF>
-				<DF>-1</DF>
+				<DF></DF>
 			</Barrett>
 			<Olsen>0.346</Olsen>
 		</Constants>
@@ -32551,7 +33229,7 @@
 			<Holladay1>1.56</Holladay1>
 			<Barrett>
 				<LF>1.59</LF>
-				<DF>-1</DF>
+				<DF></DF>
 			</Barrett>
 			<Olsen>0.36</Olsen>
 		</Constants>
@@ -32610,8 +33288,8 @@
 			<SRKt>118.82</SRKt>
 			<Haigis>
 				<a0>-2.796</a0>
-				<a1>0.3055</a1>
-				<a2>0.2861</a2>
+				<a1>0.306</a1>
+				<a2>0.286</a2>
 			</Haigis>
 			<HofferQ>5.45</HofferQ>
 			<Holladay1>1.67</Holladay1>
@@ -33056,14 +33734,14 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="259">
-			<SRKt>118.34575</SRKt>
+			<SRKt>118.3458</SRKt>
 			<Haigis>
-				<a0>-0.43419</a0>
-				<a1>0.37913</a1>
-				<a2>0.16138</a2>
+				<a0>-0.4342</a0>
+				<a1>0.3791</a1>
+				<a2>0.1614</a2>
 			</Haigis>
-			<HofferQ>5.13388</HofferQ>
-			<Holladay1>1.37665</Holladay1>
+			<HofferQ>5.1339</HofferQ>
+			<Holladay1>1.3767</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="1711">
@@ -33119,12 +33797,12 @@
 		<Constants type="optimized" results="88">
 			<SRKt>118.1359</SRKt>
 			<Haigis>
-				<a0>0.75919</a0>
+				<a0>0.7592</a0>
 				<a1>0.4</a1>
 				<a2>0.1</a2>
 			</Haigis>
 			<HofferQ>5.0296</HofferQ>
-			<Holladay1>1.26977</Holladay1>
+			<Holladay1>1.2698</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="1689">
@@ -33761,14 +34439,14 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="356">
-			<SRKt>118.39969</SRKt>
+			<SRKt>118.3997</SRKt>
 			<Haigis>
-				<a0>1.39475</a0>
-				<a1>0.35191</a1>
-				<a2>0.08579</a2>
+				<a0>1.3948</a0>
+				<a1>0.3519</a1>
+				<a2>0.0858</a2>
 			</Haigis>
-			<HofferQ>5.13132</HofferQ>
-			<Holladay1>1.39636</Holladay1>
+			<HofferQ>5.1313</HofferQ>
+			<Holladay1>1.3964</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="1718">
@@ -33829,12 +34507,12 @@
 		<Constants type="optimized" results="189">
 			<SRKt>118.1794</SRKt>
 			<Haigis>
-				<a0>0.70598</a0>
-				<a1>0.27389</a1>
+				<a0>0.706</a0>
+				<a1>0.2739</a1>
 				<a2>0.1273</a2>
 			</Haigis>
-			<HofferQ>5.18541</HofferQ>
-			<Holladay1>1.33629</Holladay1>
+			<HofferQ>5.1854</HofferQ>
+			<Holladay1>1.3363</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="1692">
@@ -33895,12 +34573,12 @@
 		<Constants type="optimized" results="43">
 			<SRKt>118.6629</SRKt>
 			<Haigis>
-				<a0>1.14194</a0>
+				<a0>1.1419</a0>
 				<a1>0.4</a1>
 				<a2>0.1</a2>
 			</Haigis>
-			<HofferQ>5.38106</HofferQ>
-			<Holladay1>1.56867</Holladay1>
+			<HofferQ>5.3811</HofferQ>
+			<Holladay1>1.5687</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="1696">
@@ -33961,12 +34639,12 @@
 		<Constants type="optimized" results="79">
 			<SRKt>118.4254</SRKt>
 			<Haigis>
-				<a0>1.02066</a0>
+				<a0>1.0207</a0>
 				<a1>0.4</a1>
 				<a2>0.1</a2>
 			</Haigis>
-			<HofferQ>5.24714</HofferQ>
-			<Holladay1>1.48406</Holladay1>
+			<HofferQ>5.2471</HofferQ>
+			<Holladay1>1.4841</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="1697">
@@ -34289,12 +34967,12 @@
 		<Constants type="optimized" results="189">
 			<SRKt>118.1794</SRKt>
 			<Haigis>
-				<a0>0.70598</a0>
-				<a1>0.27389</a1>
+				<a0>0.706</a0>
+				<a1>0.2739</a1>
 				<a2>0.1273</a2>
 			</Haigis>
-			<HofferQ>5.18541</HofferQ>
-			<Holladay1>1.33629</Holladay1>
+			<HofferQ>5.1854</HofferQ>
+			<Holladay1>1.3363</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="1720">
@@ -34355,12 +35033,12 @@
 		<Constants type="optimized" results="189">
 			<SRKt>118.1794</SRKt>
 			<Haigis>
-				<a0>0.70598</a0>
-				<a1>0.27389</a1>
+				<a0>0.706</a0>
+				<a1>0.2739</a1>
 				<a2>0.1273</a2>
 			</Haigis>
-			<HofferQ>5.18541</HofferQ>
-			<Holladay1>1.33629</Holladay1>
+			<HofferQ>5.1854</HofferQ>
+			<Holladay1>1.3363</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="1716">
@@ -35007,399 +35685,12 @@
 		<Constants type="optimized" results="128">
 			<SRKt>119.2415</SRKt>
 			<Haigis>
-				<a0>-0.41349</a0>
+				<a0>-0.4135</a0>
 				<a1>0.2203</a1>
-				<a2>0.20543</a2>
+				<a2>0.2054</a2>
 			</Haigis>
 			<HofferQ>5.7052</HofferQ>
-			<Holladay1>1.95504</Holladay1>
-		</Constants>
-	</Lens>
-	<Lens id="1828">
-		<Manufacturer>Teleon</Manufacturer>
-		<Name>PCA81</Name>
-		<Specifications>
-			<SinglePiece>yes</SinglePiece>
-			<OpticMaterial>acrylic</OpticMaterial>
-			<HapticMaterial></HapticMaterial>
-			<Preloaded>no</Preloaded>
-			<Foldable>yes</Foldable>
-			<IncisionWidth>2</IncisionWidth>
-			<InjectorSize>2.2</InjectorSize>
-			<Hydro>hydrophilic</Hydro>
-			<Filter>ultraviolet</Filter>
-			<RefractiveIndex>1.46</RefractiveIndex>
-			<AbbeNumber>58</AbbeNumber>
-			<Achromatic></Achromatic>
-			<OpticDiameter>6</OpticDiameter>
-			<HapticDiameter>12</HapticDiameter>
-			<OpticConcept>monofocal</OpticConcept>
-			<HapticDesign>closed C-Loop</HapticDesign>
-			<IntendedLocation>capsular bag</IntendedLocation>
-			<OpticDesign>sphere</OpticDesign>
-			<Aberration></Aberration>
-			<saCorrection></saCorrection>
-			<Toric>no</Toric>
-		</Specifications>
-		<Availability>
-			<Sphere range="1">
-				<From>-10</From>
-				<To>35</To>
-				<Increment>1</Increment>
-			</Sphere>
-			<Sphere range="2">
-				<From>10</From>
-				<To>30</To>
-				<Increment>0.5</Increment>
-			</Sphere>
-		</Availability>
-		<Constants type="nominal">
-			<Ultrasound>118</Ultrasound>
-			<SRKt>118.3</SRKt>
-			<Haigis>
-				<a0>0.846</a0>
-				<a1>0.4</a1>
-				<a2>0.1</a2>
-			</Haigis>
-			<HofferQ>5.07</HofferQ>
-			<Holladay1>1.29</Holladay1>
-			<Barrett>
-				<LF>1.52</LF>
-				<DF>0</DF>
-			</Barrett>
-			<Olsen></Olsen>
-		</Constants>
-		<Constants type="optimized" results="0">
-			<SRKt></SRKt>
-			<Haigis>
-				<a0></a0>
-				<a1></a1>
-				<a2></a2>
-			</Haigis>
-			<HofferQ></HofferQ>
-			<Holladay1></Holladay1>
-		</Constants>
-	</Lens>
-	<Lens id="1832">
-		<Manufacturer>Teleon</Manufacturer>
-		<Name>PCM81 NY</Name>
-		<Specifications>
-			<SinglePiece>yes</SinglePiece>
-			<OpticMaterial>acrylic</OpticMaterial>
-			<HapticMaterial></HapticMaterial>
-			<Preloaded>no</Preloaded>
-			<Foldable>yes</Foldable>
-			<IncisionWidth>2</IncisionWidth>
-			<InjectorSize>2.2</InjectorSize>
-			<Hydro>hydrophilic</Hydro>
-			<Filter>yellow</Filter>
-			<RefractiveIndex>1.46</RefractiveIndex>
-			<AbbeNumber>58</AbbeNumber>
-			<Achromatic></Achromatic>
-			<OpticDiameter>6</OpticDiameter>
-			<HapticDiameter>12</HapticDiameter>
-			<OpticConcept>multifocal</OpticConcept>
-			<HapticDesign>closed C-Loop</HapticDesign>
-			<IntendedLocation>capsular bag</IntendedLocation>
-			<OpticDesign>asphere</OpticDesign>
-			<Aberration>neutral</Aberration>
-			<saCorrection>0</saCorrection>
-			<Toric>no</Toric>
-		</Specifications>
-		<Availability>
-			<Sphere range="2">
-				<From>10</From>
-				<To>30</To>
-				<Increment>0.5</Increment>
-			</Sphere>
-			<Addition distance="near">2</Addition>
-		</Availability>
-		<Constants type="nominal">
-			<Ultrasound>118</Ultrasound>
-			<SRKt>118.3</SRKt>
-			<Haigis>
-				<a0>0.846</a0>
-				<a1>0.4</a1>
-				<a2>0.1</a2>
-			</Haigis>
-			<HofferQ>5.07</HofferQ>
-			<Holladay1>1.29</Holladay1>
-			<Barrett>
-				<LF>1.52</LF>
-				<DF>0</DF>
-			</Barrett>
-			<Olsen></Olsen>
-		</Constants>
-		<Constants type="optimized" results="0">
-			<SRKt></SRKt>
-			<Haigis>
-				<a0></a0>
-				<a1></a1>
-				<a2></a2>
-			</Haigis>
-			<HofferQ></HofferQ>
-			<Holladay1></Holladay1>
-		</Constants>
-	</Lens>
-	<Lens id="1833">
-		<Manufacturer>Teleon</Manufacturer>
-		<Name>PCM81 NY T0-T3</Name>
-		<Specifications>
-			<SinglePiece>yes</SinglePiece>
-			<OpticMaterial>acrylic</OpticMaterial>
-			<HapticMaterial></HapticMaterial>
-			<Preloaded>no</Preloaded>
-			<Foldable>yes</Foldable>
-			<IncisionWidth>2</IncisionWidth>
-			<InjectorSize>2.2</InjectorSize>
-			<Hydro>hydrophilic</Hydro>
-			<Filter>yellow</Filter>
-			<RefractiveIndex>1.46</RefractiveIndex>
-			<AbbeNumber>58</AbbeNumber>
-			<Achromatic></Achromatic>
-			<OpticDiameter>6</OpticDiameter>
-			<HapticDiameter>12</HapticDiameter>
-			<OpticConcept>multifocal</OpticConcept>
-			<HapticDesign>closed C-Loop</HapticDesign>
-			<IntendedLocation>capsular bag</IntendedLocation>
-			<OpticDesign>asphere</OpticDesign>
-			<Aberration>neutral</Aberration>
-			<saCorrection>0</saCorrection>
-			<Toric>yes</Toric>
-		</Specifications>
-		<Availability refractivePower="spherical equivalent" tNotation="no">
-			<Sphere range="2">
-				<From>10</From>
-				<To>30</To>
-				<Increment>0.5</Increment>
-			</Sphere>
-			<Cylinder range="1">
-				<From>0.75</From>
-				<To>3</To>
-				<Increment>0.75</Increment>
-			</Cylinder>
-			<Addition distance="near">2</Addition>
-		</Availability>
-		<Constants type="nominal">
-			<Ultrasound>118</Ultrasound>
-			<SRKt>118.3</SRKt>
-			<Haigis>
-				<a0>0.846</a0>
-				<a1>0.4</a1>
-				<a2>0.1</a2>
-			</Haigis>
-			<HofferQ>5.07</HofferQ>
-			<Holladay1>1.29</Holladay1>
-			<Barrett>
-				<LF>1.52</LF>
-				<DF>0</DF>
-			</Barrett>
-			<Olsen></Olsen>
-		</Constants>
-		<Constants type="optimized" results="0">
-			<SRKt></SRKt>
-			<Haigis>
-				<a0></a0>
-				<a1></a1>
-				<a2></a2>
-			</Haigis>
-			<HofferQ></HofferQ>
-			<Holladay1></Holladay1>
-		</Constants>
-	</Lens>
-	<Lens id="1829">
-		<Manufacturer>Teleon</Manufacturer>
-		<Name>PCX81</Name>
-		<Specifications>
-			<SinglePiece>yes</SinglePiece>
-			<OpticMaterial>acrylic</OpticMaterial>
-			<HapticMaterial></HapticMaterial>
-			<Preloaded>no</Preloaded>
-			<Foldable>yes</Foldable>
-			<IncisionWidth>2</IncisionWidth>
-			<InjectorSize>2.2</InjectorSize>
-			<Hydro>hydrophilic</Hydro>
-			<Filter>ultraviolet</Filter>
-			<RefractiveIndex>1.46</RefractiveIndex>
-			<AbbeNumber>58</AbbeNumber>
-			<Achromatic></Achromatic>
-			<OpticDiameter>6</OpticDiameter>
-			<HapticDiameter>12</HapticDiameter>
-			<OpticConcept>monofocal</OpticConcept>
-			<HapticDesign>closed C-Loop</HapticDesign>
-			<IntendedLocation>capsular bag</IntendedLocation>
-			<OpticDesign>asphere</OpticDesign>
-			<Aberration>neutral</Aberration>
-			<saCorrection>0</saCorrection>
-			<Toric>no</Toric>
-		</Specifications>
-		<Availability>
-			<Sphere range="1">
-				<From>0</From>
-				<To>35</To>
-				<Increment>1</Increment>
-			</Sphere>
-			<Sphere range="2">
-				<From>10</From>
-				<To>30</To>
-				<Increment>0.5</Increment>
-			</Sphere>
-		</Availability>
-		<Constants type="nominal">
-			<Ultrasound>118</Ultrasound>
-			<SRKt>118.3</SRKt>
-			<Haigis>
-				<a0>0.846</a0>
-				<a1>0.4</a1>
-				<a2>0.1</a2>
-			</Haigis>
-			<HofferQ>5.07</HofferQ>
-			<Holladay1>1.29</Holladay1>
-			<Barrett>
-				<LF>1.52</LF>
-				<DF>0</DF>
-			</Barrett>
-			<Olsen></Olsen>
-		</Constants>
-		<Constants type="optimized" results="0">
-			<SRKt></SRKt>
-			<Haigis>
-				<a0></a0>
-				<a1></a1>
-				<a2></a2>
-			</Haigis>
-			<HofferQ></HofferQ>
-			<Holladay1></Holladay1>
-		</Constants>
-	</Lens>
-	<Lens id="1830">
-		<Manufacturer>Teleon</Manufacturer>
-		<Name>PCX81 NY</Name>
-		<Specifications>
-			<SinglePiece>yes</SinglePiece>
-			<OpticMaterial>acrylic</OpticMaterial>
-			<HapticMaterial></HapticMaterial>
-			<Preloaded>no</Preloaded>
-			<Foldable>yes</Foldable>
-			<IncisionWidth>2</IncisionWidth>
-			<InjectorSize>2.2</InjectorSize>
-			<Hydro>hydrophilic</Hydro>
-			<Filter>yellow</Filter>
-			<RefractiveIndex>1.46</RefractiveIndex>
-			<AbbeNumber>58</AbbeNumber>
-			<Achromatic></Achromatic>
-			<OpticDiameter>6</OpticDiameter>
-			<HapticDiameter>12</HapticDiameter>
-			<OpticConcept>monofocal</OpticConcept>
-			<HapticDesign>closed C-Loop</HapticDesign>
-			<IntendedLocation>capsular bag</IntendedLocation>
-			<OpticDesign>asphere</OpticDesign>
-			<Aberration>neutral</Aberration>
-			<saCorrection>0</saCorrection>
-			<Toric>no</Toric>
-		</Specifications>
-		<Availability>
-			<Sphere range="1">
-				<From>0</From>
-				<To>35</To>
-				<Increment>1</Increment>
-			</Sphere>
-			<Sphere range="2">
-				<From>10</From>
-				<To>30</To>
-				<Increment>0.5</Increment>
-			</Sphere>
-		</Availability>
-		<Constants type="nominal">
-			<Ultrasound>118</Ultrasound>
-			<SRKt>118.3</SRKt>
-			<Haigis>
-				<a0>0.846</a0>
-				<a1>0.4</a1>
-				<a2>0.1</a2>
-			</Haigis>
-			<HofferQ>5.07</HofferQ>
-			<Holladay1>1.29</Holladay1>
-			<Barrett>
-				<LF>1.52</LF>
-				<DF>0</DF>
-			</Barrett>
-			<Olsen></Olsen>
-		</Constants>
-		<Constants type="optimized" results="0">
-			<SRKt></SRKt>
-			<Haigis>
-				<a0></a0>
-				<a1></a1>
-				<a2></a2>
-			</Haigis>
-			<HofferQ></HofferQ>
-			<Holladay1></Holladay1>
-		</Constants>
-	</Lens>
-	<Lens id="1831">
-		<Manufacturer>Teleon</Manufacturer>
-		<Name>PCX81 NY T0-T6</Name>
-		<Specifications>
-			<SinglePiece>yes</SinglePiece>
-			<OpticMaterial>acrylic</OpticMaterial>
-			<HapticMaterial></HapticMaterial>
-			<Preloaded>no</Preloaded>
-			<Foldable>yes</Foldable>
-			<IncisionWidth>2</IncisionWidth>
-			<InjectorSize>2.2</InjectorSize>
-			<Hydro>hydrophilic</Hydro>
-			<Filter>yellow</Filter>
-			<RefractiveIndex>1.46</RefractiveIndex>
-			<AbbeNumber>58</AbbeNumber>
-			<Achromatic></Achromatic>
-			<OpticDiameter>6</OpticDiameter>
-			<HapticDiameter>12</HapticDiameter>
-			<OpticConcept>monofocal</OpticConcept>
-			<HapticDesign>closed C-Loop</HapticDesign>
-			<IntendedLocation>capsular bag</IntendedLocation>
-			<OpticDesign>asphere</OpticDesign>
-			<Aberration>neutral</Aberration>
-			<saCorrection>0</saCorrection>
-			<Toric>yes</Toric>
-		</Specifications>
-		<Availability refractivePower="spherical equivalent" tNotation="no">
-			<Sphere range="2">
-				<From>10</From>
-				<To>30</To>
-				<Increment>0.5</Increment>
-			</Sphere>
-			<Cylinder range="1">
-				<From>0.75</From>
-				<To>5.25</To>
-				<Increment>0.75</Increment>
-			</Cylinder>
-		</Availability>
-		<Constants type="nominal">
-			<Ultrasound>118</Ultrasound>
-			<SRKt>118.3</SRKt>
-			<Haigis>
-				<a0>0.846</a0>
-				<a1>0.4</a1>
-				<a2>0.1</a2>
-			</Haigis>
-			<HofferQ>5.07</HofferQ>
-			<Holladay1>1.29</Holladay1>
-			<Barrett>
-				<LF>1.52</LF>
-				<DF>0</DF>
-			</Barrett>
-			<Olsen></Olsen>
-		</Constants>
-		<Constants type="optimized" results="0">
-			<SRKt></SRKt>
-			<Haigis>
-				<a0></a0>
-				<a1></a1>
-				<a2></a2>
-			</Haigis>
-			<HofferQ></HofferQ>
-			<Holladay1></Holladay1>
+			<Holladay1>1.955</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="1114">
@@ -35454,12 +35745,192 @@
 		<Constants type="optimized" results="109">
 			<SRKt>119.2956</SRKt>
 			<Haigis>
-				<a0>1.52266</a0>
-				<a1>0.34832</a1>
-				<a2>0.11303</a2>
+				<a0>1.5227</a0>
+				<a1>0.3483</a1>
+				<a2>0.113</a2>
 			</Haigis>
-			<HofferQ>5.78614</HofferQ>
-			<Holladay1>1.99982</Holladay1>
+			<HofferQ>5.7861</HofferQ>
+			<Holladay1>1.9998</Holladay1>
+		</Constants>
+	</Lens>
+	<Lens id="2552">
+		<Manufacturer>Voptica</Manufacturer>
+		<Name>ArtIOLs25</Name>
+		<Specifications>
+			<SinglePiece>yes</SinglePiece>
+			<OpticMaterial>acrylic</OpticMaterial>
+			<HapticMaterial></HapticMaterial>
+			<Preloaded>no</Preloaded>
+			<Foldable>yes</Foldable>
+			<IncisionWidth>2.2</IncisionWidth>
+			<InjectorSize>2.2</InjectorSize>
+			<Hydro>hydrophobic</Hydro>
+			<Filter>ultraviolet</Filter>
+			<RefractiveIndex>1.54</RefractiveIndex>
+			<AbbeNumber>42</AbbeNumber>
+			<Achromatic>no</Achromatic>
+			<OpticDiameter>6</OpticDiameter>
+			<HapticDiameter>13</HapticDiameter>
+			<OpticConcept>EDoF</OpticConcept>
+			<HapticDesign>C-loop</HapticDesign>
+			<IntendedLocation>capsular bag</IntendedLocation>
+			<OpticDesign>asphere</OpticDesign>
+			<Aberration>correcting</Aberration>
+			<saCorrection>-0.15</saCorrection>
+			<Toric>no</Toric>
+		</Specifications>
+		<Availability>
+			<Sphere range="1">
+				<From>10</From>
+				<To>30.5</To>
+				<Increment>0.5</Increment>
+			</Sphere>
+		</Availability>
+		<Constants type="nominal" results="833">
+			<Ultrasound>120</Ultrasound>
+			<SRKt>120</SRKt>
+			<Haigis>
+				<a0>0.72</a0>
+				<a1>0.297</a1>
+				<a2>0.169</a2>
+			</Haigis>
+			<HofferQ>6.21</HofferQ>
+			<Holladay1>2.44</Holladay1>
+			<Barrett>
+				<LF>2.49</LF>
+				<DF>0</DF>
+			</Barrett>
+			<Olsen></Olsen>
+		</Constants>
+		<Constants type="optimized" results="0">
+			<SRKt></SRKt>
+			<Haigis>
+				<a0></a0>
+				<a1></a1>
+				<a2></a2>
+			</Haigis>
+			<HofferQ></HofferQ>
+			<Holladay1></Holladay1>
+		</Constants>
+	</Lens>
+	<Lens id="2553">
+		<Manufacturer>Voptica</Manufacturer>
+		<Name>ArtIOLs40</Name>
+		<Specifications>
+			<SinglePiece>yes</SinglePiece>
+			<OpticMaterial>acrylic</OpticMaterial>
+			<HapticMaterial></HapticMaterial>
+			<Preloaded>no</Preloaded>
+			<Foldable>yes</Foldable>
+			<IncisionWidth>2.2</IncisionWidth>
+			<InjectorSize>2.2</InjectorSize>
+			<Hydro>hydrophobic</Hydro>
+			<Filter>ultraviolet</Filter>
+			<RefractiveIndex>1.54</RefractiveIndex>
+			<AbbeNumber>42</AbbeNumber>
+			<Achromatic>no</Achromatic>
+			<OpticDiameter>6</OpticDiameter>
+			<HapticDiameter>13</HapticDiameter>
+			<OpticConcept>EDoF</OpticConcept>
+			<HapticDesign>C-loop</HapticDesign>
+			<IntendedLocation>capsular bag</IntendedLocation>
+			<OpticDesign>asphere</OpticDesign>
+			<Aberration>correcting</Aberration>
+			<saCorrection>-0.3</saCorrection>
+			<Toric>no</Toric>
+		</Specifications>
+		<Availability>
+			<Sphere range="1">
+				<From>10</From>
+				<To>30.5</To>
+				<Increment>0.5</Increment>
+			</Sphere>
+		</Availability>
+		<Constants type="nominal" results="833">
+			<Ultrasound>120</Ultrasound>
+			<SRKt>120</SRKt>
+			<Haigis>
+				<a0>0.72</a0>
+				<a1>0.297</a1>
+				<a2>0.169</a2>
+			</Haigis>
+			<HofferQ>6.21</HofferQ>
+			<Holladay1>2.44</Holladay1>
+			<Barrett>
+				<LF>2.49</LF>
+				<DF>0</DF>
+			</Barrett>
+			<Olsen></Olsen>
+		</Constants>
+		<Constants type="optimized" results="0">
+			<SRKt></SRKt>
+			<Haigis>
+				<a0></a0>
+				<a1></a1>
+				<a2></a2>
+			</Haigis>
+			<HofferQ></HofferQ>
+			<Holladay1></Holladay1>
+		</Constants>
+	</Lens>
+	<Lens id="2554">
+		<Manufacturer>Voptica</Manufacturer>
+		<Name>ArtIOLs70</Name>
+		<Specifications>
+			<SinglePiece>yes</SinglePiece>
+			<OpticMaterial>acrylic</OpticMaterial>
+			<HapticMaterial></HapticMaterial>
+			<Preloaded>no</Preloaded>
+			<Foldable>yes</Foldable>
+			<IncisionWidth>2.2</IncisionWidth>
+			<InjectorSize>2.2</InjectorSize>
+			<Hydro>hydrophobic</Hydro>
+			<Filter>ultraviolet</Filter>
+			<RefractiveIndex>1.54</RefractiveIndex>
+			<AbbeNumber>42</AbbeNumber>
+			<Achromatic>no</Achromatic>
+			<OpticDiameter>6</OpticDiameter>
+			<HapticDiameter>13</HapticDiameter>
+			<OpticConcept>EDoF</OpticConcept>
+			<HapticDesign>C-loop</HapticDesign>
+			<IntendedLocation>capsular bag</IntendedLocation>
+			<OpticDesign>asphere</OpticDesign>
+			<Aberration>correcting</Aberration>
+			<saCorrection>-0.6</saCorrection>
+			<Toric>no</Toric>
+		</Specifications>
+		<Availability>
+			<Sphere range="1">
+				<From>10</From>
+				<To>30.5</To>
+				<Increment>0.5</Increment>
+			</Sphere>
+		</Availability>
+		<Constants type="nominal" results="833">
+			<Ultrasound>120</Ultrasound>
+			<SRKt>120</SRKt>
+			<Haigis>
+				<a0>0.72</a0>
+				<a1>0.297</a1>
+				<a2>0.169</a2>
+			</Haigis>
+			<HofferQ>6.21</HofferQ>
+			<Holladay1>2.44</Holladay1>
+			<Barrett>
+				<LF>2.49</LF>
+				<DF>0</DF>
+			</Barrett>
+			<Olsen></Olsen>
+		</Constants>
+		<Constants type="optimized" results="0">
+			<SRKt></SRKt>
+			<Haigis>
+				<a0></a0>
+				<a1></a1>
+				<a2></a2>
+			</Haigis>
+			<HofferQ></HofferQ>
+			<Holladay1></Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="729">
@@ -35883,14 +36354,14 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="82">
-			<SRKt>118.81865</SRKt>
+			<SRKt>118.8187</SRKt>
 			<Haigis>
 				<a0>1.1955</a0>
 				<a1>0.4</a1>
 				<a2>0.1</a2>
 			</Haigis>
-			<HofferQ>5.41107</HofferQ>
-			<Holladay1>1.62396</Holladay1>
+			<HofferQ>5.4111</HofferQ>
+			<Holladay1>1.624</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="739">
@@ -37115,8 +37586,8 @@
 			<SRKt>118.81</SRKt>
 			<Haigis>
 				<a0>-2.906</a0>
-				<a1>0.4931</a1>
-				<a2>0.2698</a2>
+				<a1>0.493</a1>
+				<a2>0.27</a2>
 			</Haigis>
 			<HofferQ>5.53</HofferQ>
 			<Holladay1>1.71</Holladay1>
@@ -37313,8 +37784,8 @@
 			<SRKt>118.82</SRKt>
 			<Haigis>
 				<a0>-2.796</a0>
-				<a1>0.3055</a1>
-				<a2>0.2861</a2>
+				<a1>0.306</a1>
+				<a2>0.286</a2>
 			</Haigis>
 			<HofferQ>5.45</HofferQ>
 			<Holladay1>1.67</Holladay1>
@@ -37457,17 +37928,73 @@
 			<Olsen>0.3</Olsen>
 		</Constants>
 		<Constants type="optimized" results="305">
-			<SRKt>119.61916</SRKt>
+			<SRKt>119.6192</SRKt>
 			<Haigis>
 				<a0>0.05</a0>
-				<a1>0.37988</a1>
-				<a2>0.17308</a2>
+				<a1>0.3799</a1>
+				<a2>0.1731</a2>
 			</Haigis>
-			<HofferQ>5.89769</HofferQ>
-			<Holladay1>2.16111</Holladay1>
+			<HofferQ>5.8977</HofferQ>
+			<Holladay1>2.1611</Holladay1>
 		</Constants>
 	</Lens>
-	
+	<Lens id="2439">
+		<Manufacturer>ZEISS</Manufacturer>
+		<Name>AT ELANA 841P Korea</Name>
+		<Specifications>
+			<SinglePiece>yes</SinglePiece>
+			<OpticMaterial>acrylic</OpticMaterial>
+			<HapticMaterial></HapticMaterial>
+			<Preloaded>yes</Preloaded>
+			<Foldable>yes</Foldable>
+			<IncisionWidth></IncisionWidth>
+			<InjectorSize></InjectorSize>
+			<Hydro>hydrophobic</Hydro>
+			<Filter>clear</Filter>
+			<RefractiveIndex>1.49</RefractiveIndex>
+			<AbbeNumber>51</AbbeNumber>
+			<Achromatic></Achromatic>
+			<OpticDiameter>6</OpticDiameter>
+			<HapticDiameter>13</HapticDiameter>
+			<OpticConcept>multifocal</OpticConcept>
+			<HapticDesign>C loop</HapticDesign>
+			<IntendedLocation>capsular bag</IntendedLocation>
+			<OpticDesign>asphere</OpticDesign>
+			<Aberration>neutral</Aberration>
+			<saCorrection></saCorrection>
+			<Toric>no</Toric>
+		</Specifications>
+		<Availability>
+			<Addition distance="near">3.33</Addition>
+			<Addition distance="intermediate">1.66</Addition>
+		</Availability>
+		<Constants type="ULIB" results="62">
+			<Ultrasound>120.2</Ultrasound>
+			<SRKt>119.5</SRKt>
+			<Haigis>
+				<a0>1.64</a0>
+				<a1>0.4</a1>
+				<a2>0.1</a2>
+			</Haigis>
+			<HofferQ>5.84</HofferQ>
+			<Holladay1>2.06</Holladay1>
+			<Barrett>
+				<LF>2.15</LF>
+				<DF>3.5</DF>
+			</Barrett>
+			<Olsen>0.3</Olsen>
+		</Constants>
+		<Constants type="optimized" results="321">
+			<SRKt>119.4301</SRKt>
+			<Haigis>
+				<a0>1.8831</a0>
+				<a1>0.158</a1>
+				<a2>0.1254</a2>
+			</Haigis>
+			<HofferQ>5.901</HofferQ>
+			<Holladay1>2.1083</Holladay1>
+		</Constants>
+	</Lens>
 	<Lens id="978">
 		<Manufacturer>ZEISS</Manufacturer>
 		<Name>AT LARA 829MP</Name>
@@ -37519,14 +38046,14 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="211">
-			<SRKt>118.32254</SRKt>
+			<SRKt>118.3225</SRKt>
 			<Haigis>
-				<a0>1.35049</a0>
-				<a1>0.38649</a1>
-				<a2>0.08103</a2>
+				<a0>1.3505</a0>
+				<a1>0.3865</a1>
+				<a2>0.081</a2>
 			</Haigis>
-			<HofferQ>5.11629</HofferQ>
-			<Holladay1>1.34684</Holladay1>
+			<HofferQ>5.1163</HofferQ>
+			<Holladay1>1.3468</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="1860">
@@ -37900,15 +38427,15 @@
 			</Barrett>
 			<Olsen></Olsen>
 		</Constants>
-		<Constants type="optimized" results="179">
-			<SRKt>118.82064</SRKt>
+		<Constants type="optimized" results="128">
+			<SRKt>118.8206</SRKt>
 			<Haigis>
-				<a0>0.47826</a0>
-				<a1>0.25902</a1>
-				<a2>0.14891</a2>
+				<a0>0.4783</a0>
+				<a1>0.259</a1>
+				<a2>0.1489</a2>
 			</Haigis>
-			<HofferQ>5.41885</HofferQ>
-			<Holladay1>1.66075</Holladay1>
+			<HofferQ>5.4189</HofferQ>
+			<Holladay1>1.6608</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="1175">
@@ -37965,12 +38492,12 @@
 		<Constants type="optimized" results="156">
 			<SRKt>118.4413</SRKt>
 			<Haigis>
-				<a0>-2.19669</a0>
-				<a1>0.21453</a1>
-				<a2>0.26568</a2>
+				<a0>-2.1967</a0>
+				<a1>0.2145</a1>
+				<a2>0.2657</a2>
 			</Haigis>
-			<HofferQ>5.42918</HofferQ>
-			<Holladay1>1.55508</Holladay1>
+			<HofferQ>5.4292</HofferQ>
+			<Holladay1>1.5551</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="1160">
@@ -38354,14 +38881,14 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="100">
-			<SRKt>118.88962</SRKt>
+			<SRKt>118.8896</SRKt>
 			<Haigis>
-				<a0>-0.23426</a0>
-				<a1>0.13921</a1>
-				<a2>0.20221</a2>
+				<a0>-0.2343</a0>
+				<a1>0.1392</a1>
+				<a2>0.2022</a2>
 			</Haigis>
-			<HofferQ>5.50772</HofferQ>
-			<Holladay1>1.72933</Holladay1>
+			<HofferQ>5.5077</HofferQ>
+			<Holladay1>1.7293</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="2295">
@@ -38419,17 +38946,86 @@
 			<Olsen></Olsen>
 		</Constants>
 		<Constants type="optimized" results="100">
-			<SRKt>118.88962</SRKt>
+			<SRKt>118.8896</SRKt>
 			<Haigis>
-				<a0>-0.23426</a0>
-				<a1>0.13921</a1>
-				<a2>0.20221</a2>
+				<a0>-0.2343</a0>
+				<a1>0.1392</a1>
+				<a2>0.2022</a2>
 			</Haigis>
-			<HofferQ>5.50772</HofferQ>
-			<Holladay1>1.72933</Holladay1>
+			<HofferQ>5.5077</HofferQ>
+			<Holladay1>1.7293</Holladay1>
 		</Constants>
 	</Lens>
-	
+	<Lens id="996">
+		<Manufacturer>ZEISS</Manufacturer>
+		<Name>CT 47S</Name>
+		<Specifications>
+			<SinglePiece>yes</SinglePiece>
+			<OpticMaterial>acrylic</OpticMaterial>
+			<HapticMaterial></HapticMaterial>
+			<Preloaded>no</Preloaded>
+			<Foldable>yes</Foldable>
+			<IncisionWidth>2.4</IncisionWidth>
+			<InjectorSize>2.2</InjectorSize>
+			<Hydro>hydrophilic</Hydro>
+			<Filter>clear</Filter>
+			<RefractiveIndex>1.46</RefractiveIndex>
+			<AbbeNumber>58</AbbeNumber>
+			<Achromatic></Achromatic>
+			<OpticDiameter>6</OpticDiameter>
+			<HapticDiameter>12.5</HapticDiameter>
+			<OpticConcept>monofocal</OpticConcept>
+			<HapticDesign>C-loop</HapticDesign>
+			<IntendedLocation>capsular bag</IntendedLocation>
+			<OpticDesign>sphere</OpticDesign>
+			<Aberration></Aberration>
+			<saCorrection></saCorrection>
+			<Toric>no</Toric>
+		</Specifications>
+		<Availability>
+			<Sphere range="1">
+				<From>0</From>
+				<To>10</To>
+				<Increment>1</Increment>
+			</Sphere>
+			<Sphere range="2">
+				<From>10</From>
+				<To>30</To>
+				<Increment>0.5</Increment>
+			</Sphere>
+			<Sphere range="3">
+				<From>30</From>
+				<To>40</To>
+				<Increment>1</Increment>
+			</Sphere>
+		</Availability>
+		<Constants type="ULIB" results="165">
+			<Ultrasound>117.9</Ultrasound>
+			<SRKt>118.3</SRKt>
+			<Haigis>
+				<a0>0.95</a0>
+				<a1>0.4</a1>
+				<a2>0.1</a2>
+			</Haigis>
+			<HofferQ>5.14</HofferQ>
+			<Holladay1>1.37</Holladay1>
+			<Barrett>
+				<LF>1.52</LF>
+				<DF>0</DF>
+			</Barrett>
+			<Olsen></Olsen>
+		</Constants>
+		<Constants type="optimized" results="0">
+			<SRKt></SRKt>
+			<Haigis>
+				<a0></a0>
+				<a1></a1>
+				<a2></a2>
+			</Haigis>
+			<HofferQ></HofferQ>
+			<Holladay1></Holladay1>
+		</Constants>
+	</Lens>
 	<Lens id="997">
 		<Manufacturer>ZEISS</Manufacturer>
 		<Name>CT ASPHINA 404</Name>
@@ -38562,12 +39158,12 @@
 		<Constants type="optimized" results="939">
 			<SRKt>118.3364</SRKt>
 			<Haigis>
-				<a0>0.60882</a0>
-				<a1>0.22571</a1>
-				<a2>0.13893</a2>
+				<a0>0.6088</a0>
+				<a1>0.2257</a1>
+				<a2>0.1389</a2>
 			</Haigis>
 			<HofferQ>5.179</HofferQ>
-			<Holladay1>1.39879</Holladay1>
+			<Holladay1>1.3988</Holladay1>
 		</Constants>
 	</Lens>
 	<Lens id="999">
@@ -38632,15 +39228,84 @@
 		<Constants type="optimized" results="939">
 			<SRKt>118.3364</SRKt>
 			<Haigis>
-				<a0>0.60882</a0>
-				<a1>0.22571</a1>
-				<a2>0.13893</a2>
+				<a0>0.6088</a0>
+				<a1>0.2257</a1>
+				<a2>0.1389</a2>
 			</Haigis>
 			<HofferQ>5.179</HofferQ>
-			<Holladay1>1.39879</Holladay1>
+			<Holladay1>1.3988</Holladay1>
 		</Constants>
 	</Lens>
-	
+	<Lens id="2542">
+		<Manufacturer>ZEISS</Manufacturer>
+		<Name>CT ASPHINA 419MP</Name>
+		<Specifications>
+			<SinglePiece>yes</SinglePiece>
+			<OpticMaterial>acrylic</OpticMaterial>
+			<HapticMaterial></HapticMaterial>
+			<Preloaded>yes</Preloaded>
+			<Foldable>yes</Foldable>
+			<IncisionWidth>1.8</IncisionWidth>
+			<InjectorSize>1.8</InjectorSize>
+			<Hydro>hydrophilic</Hydro>
+			<Filter>clear</Filter>
+			<RefractiveIndex>1.46</RefractiveIndex>
+			<AbbeNumber>58</AbbeNumber>
+			<Achromatic></Achromatic>
+			<OpticDiameter>6</OpticDiameter>
+			<HapticDiameter>11</HapticDiameter>
+			<OpticConcept>monofocal</OpticConcept>
+			<HapticDesign>4-haptic. MICS</HapticDesign>
+			<IntendedLocation>capsular bag</IntendedLocation>
+			<OpticDesign>asphere</OpticDesign>
+			<Aberration>neutral</Aberration>
+			<saCorrection></saCorrection>
+			<Toric>no</Toric>
+		</Specifications>
+		<Availability>
+			<Sphere range="1">
+				<From>0</From>
+				<To>10</To>
+				<Increment>1</Increment>
+			</Sphere>
+			<Sphere range="2">
+				<From>10</From>
+				<To>30</To>
+				<Increment>0.5</Increment>
+			</Sphere>
+			<Sphere range="3">
+				<From>30</From>
+				<To>32</To>
+				<Increment>1</Increment>
+			</Sphere>
+		</Availability>
+		<Constants type="ULIB" results="662">
+			<Ultrasound>118</Ultrasound>
+			<SRKt>118.3</SRKt>
+			<Haigis>
+				<a0>0.322</a0>
+				<a1>0.162</a1>
+				<a2>0.158</a2>
+			</Haigis>
+			<HofferQ>5.12</HofferQ>
+			<Holladay1>1.36</Holladay1>
+			<Barrett>
+				<LF>1.52</LF>
+				<DF>0</DF>
+			</Barrett>
+			<Olsen></Olsen>
+		</Constants>
+		<Constants type="optimized" results="0">
+			<SRKt></SRKt>
+			<Haigis>
+				<a0></a0>
+				<a1></a1>
+				<a2></a2>
+			</Haigis>
+			<HofferQ></HofferQ>
+			<Holladay1></Holladay1>
+		</Constants>
+	</Lens>
 	<Lens id="1001">
 		<Manufacturer>ZEISS</Manufacturer>
 		<Name>CT ASPHINA 509M</Name>
@@ -38700,18 +39365,87 @@
 			</Barrett>
 			<Olsen></Olsen>
 		</Constants>
-		<Constants type="optimized" results="737">
-			<SRKt>117.8363</SRKt>
+		<Constants type="optimized" results="733">
+			<SRKt>117.8115</SRKt>
 			<Haigis>
-				<a0>-0.62627</a0>
-				<a1>0.21194</a1>
-				<a2>0.18115</a2>
+				<a0>0.3045</a0>
+				<a1>0.2178</a1>
+				<a2>0.1393</a2>
 			</Haigis>
-			<HofferQ>4.91069</HofferQ>
-			<Holladay1>1.0997</Holladay1>
+			<HofferQ>4.8597</HofferQ>
+			<Holladay1>1.0777</Holladay1>
 		</Constants>
 	</Lens>
-	
+	<Lens id="1161">
+		<Manufacturer>ZEISS</Manufacturer>
+		<Name>CT ASPHINA 509M India</Name>
+		<Specifications>
+			<SinglePiece>yes</SinglePiece>
+			<OpticMaterial>acrylic</OpticMaterial>
+			<HapticMaterial></HapticMaterial>
+			<Preloaded>no</Preloaded>
+			<Foldable>yes</Foldable>
+			<IncisionWidth>1.8</IncisionWidth>
+			<InjectorSize>1.8</InjectorSize>
+			<Hydro>hydrophilic</Hydro>
+			<Filter>clear</Filter>
+			<RefractiveIndex>1.46</RefractiveIndex>
+			<AbbeNumber>58</AbbeNumber>
+			<Achromatic></Achromatic>
+			<OpticDiameter>6</OpticDiameter>
+			<HapticDiameter>11</HapticDiameter>
+			<OpticConcept>monofocal</OpticConcept>
+			<HapticDesign>4-haptic. MICS</HapticDesign>
+			<IntendedLocation>capsular bag</IntendedLocation>
+			<OpticDesign>asphere</OpticDesign>
+			<Aberration>correcting</Aberration>
+			<saCorrection>-0.18</saCorrection>
+			<Toric>no</Toric>
+		</Specifications>
+		<Availability>
+			<Sphere range="1">
+				<From>0</From>
+				<To>10</To>
+				<Increment>1</Increment>
+			</Sphere>
+			<Sphere range="2">
+				<From>10</From>
+				<To>30</To>
+				<Increment>0.5</Increment>
+			</Sphere>
+			<Sphere range="3">
+				<From>30</From>
+				<To>32</To>
+				<Increment>1</Increment>
+			</Sphere>
+		</Availability>
+		<Constants type="ULIB" results="198">
+			<Ultrasound>118.3</Ultrasound>
+			<SRKt>117.6</SRKt>
+			<Haigis>
+				<a0>0.61</a0>
+				<a1>0.4</a1>
+				<a2>0.1</a2>
+			</Haigis>
+			<HofferQ>4.78</HofferQ>
+			<Holladay1>0.99</Holladay1>
+			<Barrett>
+				<LF>1.15</LF>
+				<DF>0</DF>
+			</Barrett>
+			<Olsen></Olsen>
+		</Constants>
+		<Constants type="optimized" results="0">
+			<SRKt></SRKt>
+			<Haigis>
+				<a0></a0>
+				<a1></a1>
+				<a2></a2>
+			</Haigis>
+			<HofferQ></HofferQ>
+			<Holladay1></Holladay1>
+		</Constants>
+	</Lens>
 	<Lens id="1003">
 		<Manufacturer>ZEISS</Manufacturer>
 		<Name>CT ASPHINA 509MP</Name>
@@ -38771,18 +39505,207 @@
 			</Barrett>
 			<Olsen></Olsen>
 		</Constants>
-		<Constants type="optimized" results="737">
-			<SRKt>117.8363</SRKt>
+		<Constants type="optimized" results="733">
+			<SRKt>117.8115</SRKt>
 			<Haigis>
-				<a0>-0.62627</a0>
-				<a1>0.21194</a1>
-				<a2>0.18115</a2>
+				<a0>0.3045</a0>
+				<a1>0.2178</a1>
+				<a2>0.1393</a2>
 			</Haigis>
-			<HofferQ>4.91069</HofferQ>
-			<Holladay1>1.0997</Holladay1>
+			<HofferQ>4.8597</HofferQ>
+			<Holladay1>1.0777</Holladay1>
 		</Constants>
 	</Lens>
-	
+	<Lens id="1162">
+		<Manufacturer>ZEISS</Manufacturer>
+		<Name>CT ASPHINA 509MP India</Name>
+		<Specifications>
+			<SinglePiece>yes</SinglePiece>
+			<OpticMaterial>acrylic</OpticMaterial>
+			<HapticMaterial></HapticMaterial>
+			<Preloaded>yes</Preloaded>
+			<Foldable>yes</Foldable>
+			<IncisionWidth>1.8</IncisionWidth>
+			<InjectorSize>1.8</InjectorSize>
+			<Hydro>hydrophilic</Hydro>
+			<Filter>clear</Filter>
+			<RefractiveIndex>1.46</RefractiveIndex>
+			<AbbeNumber>58</AbbeNumber>
+			<Achromatic></Achromatic>
+			<OpticDiameter>6</OpticDiameter>
+			<HapticDiameter>11</HapticDiameter>
+			<OpticConcept>monofocal</OpticConcept>
+			<HapticDesign>4-haptic. MICS</HapticDesign>
+			<IntendedLocation>capsular bag</IntendedLocation>
+			<OpticDesign>asphere</OpticDesign>
+			<Aberration>correcting</Aberration>
+			<saCorrection>-0.18</saCorrection>
+			<Toric>no</Toric>
+		</Specifications>
+		<Availability>
+			<Sphere range="1">
+				<From>0</From>
+				<To>10</To>
+				<Increment>1</Increment>
+			</Sphere>
+			<Sphere range="2">
+				<From>10</From>
+				<To>30</To>
+				<Increment>0.5</Increment>
+			</Sphere>
+			<Sphere range="3">
+				<From>30</From>
+				<To>32</To>
+				<Increment>1</Increment>
+			</Sphere>
+		</Availability>
+		<Constants type="ULIB" results="198">
+			<Ultrasound>118.3</Ultrasound>
+			<SRKt>117.6</SRKt>
+			<Haigis>
+				<a0>0.61</a0>
+				<a1>0.4</a1>
+				<a2>0.1</a2>
+			</Haigis>
+			<HofferQ>4.78</HofferQ>
+			<Holladay1>0.99</Holladay1>
+			<Barrett>
+				<LF>1.15</LF>
+				<DF>0</DF>
+			</Barrett>
+			<Olsen></Olsen>
+		</Constants>
+		<Constants type="optimized" results="0">
+			<SRKt></SRKt>
+			<Haigis>
+				<a0></a0>
+				<a1></a1>
+				<a2></a2>
+			</Haigis>
+			<HofferQ></HofferQ>
+			<Holladay1></Holladay1>
+		</Constants>
+	</Lens>
+	<Lens id="1005">
+		<Manufacturer>ZEISS</Manufacturer>
+		<Name>CT ASPHINA 603P</Name>
+		<Specifications>
+			<SinglePiece>yes</SinglePiece>
+			<OpticMaterial>acrylic</OpticMaterial>
+			<HapticMaterial></HapticMaterial>
+			<Preloaded>yes</Preloaded>
+			<Foldable>yes</Foldable>
+			<IncisionWidth>2.8</IncisionWidth>
+			<InjectorSize>2.8</InjectorSize>
+			<Hydro>hydrophilic</Hydro>
+			<Filter>clear</Filter>
+			<RefractiveIndex>1.4565</RefractiveIndex>
+			<AbbeNumber></AbbeNumber>
+			<Achromatic></Achromatic>
+			<OpticDiameter>6</OpticDiameter>
+			<HapticDiameter>10.5</HapticDiameter>
+			<OpticConcept>monofocal</OpticConcept>
+			<HapticDesign>3-haptic</HapticDesign>
+			<IntendedLocation>capsular bag</IntendedLocation>
+			<OpticDesign>asphere</OpticDesign>
+			<Aberration>correcting</Aberration>
+			<saCorrection>-0.18</saCorrection>
+			<Toric>no</Toric>
+		</Specifications>
+		<Availability>
+			<Sphere range="1">
+				<From>10</From>
+				<To>30</To>
+				<Increment>0.5</Increment>
+			</Sphere>
+		</Availability>
+		<Constants type="ULIB" results="442">
+			<Ultrasound>118.2</Ultrasound>
+			<SRKt>118.9</SRKt>
+			<Haigis>
+				<a0>-0.463</a0>
+				<a1>0.078</a1>
+				<a2>0.218</a2>
+			</Haigis>
+			<HofferQ>5.47</HofferQ>
+			<Holladay1>1.71</Holladay1>
+			<Barrett>
+				<LF>1.83</LF>
+				<DF>0</DF>
+			</Barrett>
+			<Olsen></Olsen>
+		</Constants>
+		<Constants type="optimized" results="0">
+			<SRKt></SRKt>
+			<Haigis>
+				<a0></a0>
+				<a1></a1>
+				<a2></a2>
+			</Haigis>
+			<HofferQ></HofferQ>
+			<Holladay1></Holladay1>
+		</Constants>
+	</Lens>
+	<Lens id="1006">
+		<Manufacturer>ZEISS</Manufacturer>
+		<Name>CT LUCIA 201P</Name>
+		<Specifications>
+			<SinglePiece>yes</SinglePiece>
+			<OpticMaterial>acrylic</OpticMaterial>
+			<HapticMaterial></HapticMaterial>
+			<Preloaded>yes</Preloaded>
+			<Foldable>yes</Foldable>
+			<IncisionWidth>2</IncisionWidth>
+			<InjectorSize>2</InjectorSize>
+			<Hydro>hydrophobic</Hydro>
+			<Filter>clear</Filter>
+			<RefractiveIndex>1.489</RefractiveIndex>
+			<AbbeNumber>51</AbbeNumber>
+			<Achromatic></Achromatic>
+			<OpticDiameter>6</OpticDiameter>
+			<HapticDiameter>13</HapticDiameter>
+			<OpticConcept>monofocal</OpticConcept>
+			<HapticDesign>C-loop</HapticDesign>
+			<IntendedLocation>capsular bag</IntendedLocation>
+			<OpticDesign>sphere</OpticDesign>
+			<Aberration></Aberration>
+			<saCorrection></saCorrection>
+			<Toric>no</Toric>
+		</Specifications>
+		<Availability>
+			<Sphere range="1">
+				<From>4</From>
+				<To>30</To>
+				<Increment>0.5</Increment>
+			</Sphere>
+		</Availability>
+		<Constants type="ULIB" results="48">
+			<Ultrasound>119.1</Ultrasound>
+			<SRKt>119.3</SRKt>
+			<Haigis>
+				<a0>1.53</a0>
+				<a1>0.4</a1>
+				<a2>0.1</a2>
+			</Haigis>
+			<HofferQ>5.67</HofferQ>
+			<Holladay1>1.93</Holladay1>
+			<Barrett>
+				<LF>2.04</LF>
+				<DF>0</DF>
+			</Barrett>
+			<Olsen></Olsen>
+		</Constants>
+		<Constants type="optimized" results="0">
+			<SRKt></SRKt>
+			<Haigis>
+				<a0></a0>
+				<a1></a1>
+				<a2></a2>
+			</Haigis>
+			<HofferQ></HofferQ>
+			<Holladay1></Holladay1>
+		</Constants>
+	</Lens>
 	<Lens id="1007">
 		<Manufacturer>ZEISS</Manufacturer>
 		<Name>CT LUCIA 202</Name>
@@ -38843,7 +39766,426 @@
 			<Holladay1></Holladay1>
 		</Constants>
 	</Lens>
-	
+	<Lens id="1008">
+		<Manufacturer>ZEISS</Manufacturer>
+		<Name>CT LUCIA 211P</Name>
+		<Specifications>
+			<SinglePiece>yes</SinglePiece>
+			<OpticMaterial>acrylic</OpticMaterial>
+			<HapticMaterial></HapticMaterial>
+			<Preloaded>yes</Preloaded>
+			<Foldable>yes</Foldable>
+			<IncisionWidth>2.2</IncisionWidth>
+			<InjectorSize>2</InjectorSize>
+			<Hydro>hydrophobic</Hydro>
+			<Filter>clear</Filter>
+			<RefractiveIndex>1.489</RefractiveIndex>
+			<AbbeNumber>51</AbbeNumber>
+			<Achromatic></Achromatic>
+			<OpticDiameter>6</OpticDiameter>
+			<HapticDiameter>13</HapticDiameter>
+			<OpticConcept>monofocal</OpticConcept>
+			<HapticDesign>C-loop</HapticDesign>
+			<IntendedLocation>capsular bag</IntendedLocation>
+			<OpticDesign>sphere</OpticDesign>
+			<Aberration></Aberration>
+			<saCorrection></saCorrection>
+			<Toric>no</Toric>
+		</Specifications>
+		<Availability>
+			<Sphere range="1">
+				<From>4</From>
+				<To>34</To>
+				<Increment>0.5</Increment>
+			</Sphere>
+		</Availability>
+		<Constants type="nominal">
+			<Ultrasound>119.8</Ultrasound>
+			<SRKt>119.8</SRKt>
+			<Haigis>
+				<a0>1.839</a0>
+				<a1>0.4</a1>
+				<a2>0.1</a2>
+			</Haigis>
+			<HofferQ>6.03</HofferQ>
+			<Holladay1>2.25</Holladay1>
+			<Barrett>
+				<LF></LF>
+				<DF>0</DF>
+			</Barrett>
+			<Olsen></Olsen>
+		</Constants>
+		<Constants type="optimized" results="0">
+			<SRKt></SRKt>
+			<Haigis>
+				<a0></a0>
+				<a1></a1>
+				<a2></a2>
+			</Haigis>
+			<HofferQ></HofferQ>
+			<Holladay1></Holladay1>
+		</Constants>
+	</Lens>
+	<Lens id="1139">
+		<Manufacturer>ZEISS</Manufacturer>
+		<Name>CT LUCIA 221P</Name>
+		<Specifications>
+			<SinglePiece>yes</SinglePiece>
+			<OpticMaterial>acrylic</OpticMaterial>
+			<HapticMaterial></HapticMaterial>
+			<Preloaded>yes</Preloaded>
+			<Foldable>yes</Foldable>
+			<IncisionWidth></IncisionWidth>
+			<InjectorSize></InjectorSize>
+			<Hydro>hydrophobic</Hydro>
+			<Filter>clear</Filter>
+			<RefractiveIndex>1.49</RefractiveIndex>
+			<AbbeNumber>51</AbbeNumber>
+			<Achromatic></Achromatic>
+			<OpticDiameter>6</OpticDiameter>
+			<HapticDiameter>13</HapticDiameter>
+			<OpticConcept>monofocal</OpticConcept>
+			<HapticDesign>C loop</HapticDesign>
+			<IntendedLocation></IntendedLocation>
+			<OpticDesign>sphere</OpticDesign>
+			<Aberration></Aberration>
+			<saCorrection></saCorrection>
+			<Toric>no</Toric>
+		</Specifications>
+		<Availability>
+			<Sphere range="1">
+				<From>0</From>
+				<To>34</To>
+				<Increment>0.5</Increment>
+			</Sphere>
+		</Availability>
+		<Constants type="nominal">
+			<Ultrasound>119.8</Ultrasound>
+			<SRKt>119.8</SRKt>
+			<Haigis>
+				<a0>1.839</a0>
+				<a1>0.4</a1>
+				<a2>0.1</a2>
+			</Haigis>
+			<HofferQ>6.03</HofferQ>
+			<Holladay1>2.25</Holladay1>
+			<Barrett>
+				<LF>2.3</LF>
+				<DF>3.5</DF>
+			</Barrett>
+			<Olsen></Olsen>
+		</Constants>
+		<Constants type="optimized" results="0">
+			<SRKt></SRKt>
+			<Haigis>
+				<a0></a0>
+				<a1></a1>
+				<a2></a2>
+			</Haigis>
+			<HofferQ></HofferQ>
+			<Holladay1></Holladay1>
+		</Constants>
+	</Lens>
+	<Lens id="1010">
+		<Manufacturer>ZEISS</Manufacturer>
+		<Name>CT LUCIA 601P</Name>
+		<Specifications>
+			<SinglePiece>yes</SinglePiece>
+			<OpticMaterial>acrylic</OpticMaterial>
+			<HapticMaterial></HapticMaterial>
+			<Preloaded>yes</Preloaded>
+			<Foldable>yes</Foldable>
+			<IncisionWidth>2.2</IncisionWidth>
+			<InjectorSize>2</InjectorSize>
+			<Hydro>hydrophobic</Hydro>
+			<Filter>clear</Filter>
+			<RefractiveIndex>1.489</RefractiveIndex>
+			<AbbeNumber>51</AbbeNumber>
+			<Achromatic></Achromatic>
+			<OpticDiameter>6</OpticDiameter>
+			<HapticDiameter>13</HapticDiameter>
+			<OpticConcept>monofocal</OpticConcept>
+			<HapticDesign>C-loop</HapticDesign>
+			<IntendedLocation>capsular bag</IntendedLocation>
+			<OpticDesign>asphere</OpticDesign>
+			<Aberration>correcting</Aberration>
+			<saCorrection></saCorrection>
+			<Toric>no</Toric>
+		</Specifications>
+		<Availability>
+			<Sphere range="1">
+				<From>4</From>
+				<To>34</To>
+				<Increment>0.5</Increment>
+			</Sphere>
+		</Availability>
+		<Constants type="ULIB" results="77">
+			<Ultrasound>119.1</Ultrasound>
+			<SRKt>119.2</SRKt>
+			<Haigis>
+				<a0>1.49</a0>
+				<a1>0.4</a1>
+				<a2>0.1</a2>
+			</Haigis>
+			<HofferQ>5.7</HofferQ>
+			<Holladay1>1.94</Holladay1>
+			<Barrett>
+				<LF>1.99</LF>
+				<DF>0</DF>
+			</Barrett>
+			<Olsen></Olsen>
+		</Constants>
+		<Constants type="optimized" results="0">
+			<SRKt></SRKt>
+			<Haigis>
+				<a0></a0>
+				<a1></a1>
+				<a2></a2>
+			</Haigis>
+			<HofferQ></HofferQ>
+			<Holladay1></Holladay1>
+		</Constants>
+	</Lens>
+	<Lens id="1011">
+		<Manufacturer>ZEISS</Manufacturer>
+		<Name>CT LUCIA 601PY</Name>
+		<Specifications>
+			<SinglePiece>yes</SinglePiece>
+			<OpticMaterial>acrylic</OpticMaterial>
+			<HapticMaterial></HapticMaterial>
+			<Preloaded>yes</Preloaded>
+			<Foldable>yes</Foldable>
+			<IncisionWidth>2.2</IncisionWidth>
+			<InjectorSize>2</InjectorSize>
+			<Hydro>hydrophobic</Hydro>
+			<Filter>yellow</Filter>
+			<RefractiveIndex>1.489</RefractiveIndex>
+			<AbbeNumber>50</AbbeNumber>
+			<Achromatic></Achromatic>
+			<OpticDiameter>6</OpticDiameter>
+			<HapticDiameter>13</HapticDiameter>
+			<OpticConcept>monofocal</OpticConcept>
+			<HapticDesign>C-loop</HapticDesign>
+			<IntendedLocation>capsular bag</IntendedLocation>
+			<OpticDesign>asphere</OpticDesign>
+			<Aberration>correcting</Aberration>
+			<saCorrection></saCorrection>
+			<Toric>no</Toric>
+		</Specifications>
+		<Availability>
+			<Sphere range="1">
+				<From>4</From>
+				<To>34</To>
+				<Increment>0.5</Increment>
+			</Sphere>
+		</Availability>
+		<Constants type="ULIB" results="77">
+			<Ultrasound>119.1</Ultrasound>
+			<SRKt>119.2</SRKt>
+			<Haigis>
+				<a0>1.49</a0>
+				<a1>0.4</a1>
+				<a2>0.1</a2>
+			</Haigis>
+			<HofferQ>5.7</HofferQ>
+			<Holladay1>1.94</Holladay1>
+			<Barrett>
+				<LF>1.99</LF>
+				<DF>0</DF>
+			</Barrett>
+			<Olsen></Olsen>
+		</Constants>
+		<Constants type="optimized" results="0">
+			<SRKt></SRKt>
+			<Haigis>
+				<a0></a0>
+				<a1></a1>
+				<a2></a2>
+			</Haigis>
+			<HofferQ></HofferQ>
+			<Holladay1></Holladay1>
+		</Constants>
+	</Lens>
+	<Lens id="1012">
+		<Manufacturer>ZEISS</Manufacturer>
+		<Name>CT LUCIA 602</Name>
+		<Specifications>
+			<SinglePiece>no</SinglePiece>
+			<OpticMaterial>acrylic</OpticMaterial>
+			<HapticMaterial>acrylic</HapticMaterial>
+			<Preloaded>no</Preloaded>
+			<Foldable>yes</Foldable>
+			<IncisionWidth>2.8</IncisionWidth>
+			<InjectorSize>2.8</InjectorSize>
+			<Hydro>hydrophobic</Hydro>
+			<Filter>clear</Filter>
+			<RefractiveIndex>1.489</RefractiveIndex>
+			<AbbeNumber>51</AbbeNumber>
+			<Achromatic></Achromatic>
+			<OpticDiameter>6</OpticDiameter>
+			<HapticDiameter>13</HapticDiameter>
+			<OpticConcept>monofocal</OpticConcept>
+			<HapticDesign>C-Loop. 3-piece</HapticDesign>
+			<IntendedLocation>capsular bag</IntendedLocation>
+			<OpticDesign>asphere</OpticDesign>
+			<Aberration>correcting</Aberration>
+			<saCorrection></saCorrection>
+			<Toric>no</Toric>
+		</Specifications>
+		<Availability>
+			<Sphere range="1">
+				<From>4</From>
+				<To>34</To>
+				<Increment>0.5</Increment>
+			</Sphere>
+		</Availability>
+		<Constants type="nominal">
+			<Ultrasound>117.7</Ultrasound>
+			<SRKt>118.4</SRKt>
+			<Haigis>
+				<a0>1.1</a0>
+				<a1>0.4</a1>
+				<a2>0.1</a2>
+			</Haigis>
+			<HofferQ>5.28</HofferQ>
+			<Holladay1>1.46</Holladay1>
+			<Barrett>
+				<LF>1.57</LF>
+				<DF>0</DF>
+			</Barrett>
+			<Olsen></Olsen>
+		</Constants>
+		<Constants type="optimized" results="0">
+			<SRKt></SRKt>
+			<Haigis>
+				<a0></a0>
+				<a1></a1>
+				<a2></a2>
+			</Haigis>
+			<HofferQ></HofferQ>
+			<Holladay1></Holladay1>
+		</Constants>
+	</Lens>
+	<Lens id="1013">
+		<Manufacturer>ZEISS</Manufacturer>
+		<Name>CT LUCIA 611P</Name>
+		<Specifications>
+			<SinglePiece>yes</SinglePiece>
+			<OpticMaterial>acrylic</OpticMaterial>
+			<HapticMaterial></HapticMaterial>
+			<Preloaded>yes</Preloaded>
+			<Foldable>yes</Foldable>
+			<IncisionWidth>2.2</IncisionWidth>
+			<InjectorSize>2</InjectorSize>
+			<Hydro>hydrophobic</Hydro>
+			<Filter>clear</Filter>
+			<RefractiveIndex>1.489</RefractiveIndex>
+			<AbbeNumber>51</AbbeNumber>
+			<Achromatic></Achromatic>
+			<OpticDiameter>6</OpticDiameter>
+			<HapticDiameter>13</HapticDiameter>
+			<OpticConcept>monofocal</OpticConcept>
+			<HapticDesign>C-loop</HapticDesign>
+			<IntendedLocation>capsular bag</IntendedLocation>
+			<OpticDesign>asphere</OpticDesign>
+			<Aberration>correcting</Aberration>
+			<saCorrection></saCorrection>
+			<Toric>no</Toric>
+		</Specifications>
+		<Availability>
+			<Sphere range="1">
+				<From>4</From>
+				<To>34</To>
+				<Increment>0.5</Increment>
+			</Sphere>
+		</Availability>
+		<Constants type="ULIB" results="133">
+			<Ultrasound>119.9</Ultrasound>
+			<SRKt>120.1</SRKt>
+			<Haigis>
+				<a0>2.1</a0>
+				<a1>0.4</a1>
+				<a2>0.1</a2>
+			</Haigis>
+			<HofferQ>6.27</HofferQ>
+			<Holladay1>2.49</Holladay1>
+			<Barrett>
+				<LF>2.46</LF>
+				<DF>0</DF>
+			</Barrett>
+			<Olsen></Olsen>
+		</Constants>
+		<Constants type="optimized" results="0">
+			<SRKt></SRKt>
+			<Haigis>
+				<a0></a0>
+				<a1></a1>
+				<a2></a2>
+			</Haigis>
+			<HofferQ></HofferQ>
+			<Holladay1></Holladay1>
+		</Constants>
+	</Lens>
+	<Lens id="1014">
+		<Manufacturer>ZEISS</Manufacturer>
+		<Name>CT LUCIA 611PY</Name>
+		<Specifications>
+			<SinglePiece>yes</SinglePiece>
+			<OpticMaterial>acrylic</OpticMaterial>
+			<HapticMaterial></HapticMaterial>
+			<Preloaded>yes</Preloaded>
+			<Foldable>yes</Foldable>
+			<IncisionWidth>2.2</IncisionWidth>
+			<InjectorSize>2</InjectorSize>
+			<Hydro>hydrophobic</Hydro>
+			<Filter>yellow</Filter>
+			<RefractiveIndex>1.489</RefractiveIndex>
+			<AbbeNumber>50</AbbeNumber>
+			<Achromatic></Achromatic>
+			<OpticDiameter>6</OpticDiameter>
+			<HapticDiameter>13</HapticDiameter>
+			<OpticConcept>monofocal</OpticConcept>
+			<HapticDesign>C-loop</HapticDesign>
+			<IntendedLocation>capsular bag</IntendedLocation>
+			<OpticDesign>asphere</OpticDesign>
+			<Aberration>correcting</Aberration>
+			<saCorrection></saCorrection>
+			<Toric>no</Toric>
+		</Specifications>
+		<Availability>
+			<Sphere range="1">
+				<From>4</From>
+				<To>34</To>
+				<Increment>0.5</Increment>
+			</Sphere>
+		</Availability>
+		<Constants type="ULIB" results="133">
+			<Ultrasound>119.9</Ultrasound>
+			<SRKt>120.1</SRKt>
+			<Haigis>
+				<a0>2.1</a0>
+				<a1>0.4</a1>
+				<a2>0.1</a2>
+			</Haigis>
+			<HofferQ>6.27</HofferQ>
+			<Holladay1>2.49</Holladay1>
+			<Barrett>
+				<LF>2.46</LF>
+				<DF>0</DF>
+			</Barrett>
+			<Olsen></Olsen>
+		</Constants>
+		<Constants type="optimized" results="0">
+			<SRKt></SRKt>
+			<Haigis>
+				<a0></a0>
+				<a1></a1>
+				<a2></a2>
+			</Haigis>
+			<HofferQ></HofferQ>
+			<Holladay1></Holladay1>
+		</Constants>
+	</Lens>
 	<Lens id="1137">
 		<Manufacturer>ZEISS</Manufacturer>
 		<Name>CT LUCIA 621P</Name>
@@ -38893,18 +40235,72 @@
 			</Barrett>
 			<Olsen></Olsen>
 		</Constants>
-		<Constants type="optimized" results="1178">
-			<SRKt>119.75611</SRKt>
+		<Constants type="optimized" results="1003">
+			<SRKt>119.7561</SRKt>
 			<Haigis>
-				<a0>0.37252</a0>
-				<a1>0.32028</a1>
-				<a2>0.17699</a2>
+				<a0>0.3725</a0>
+				<a1>0.3203</a1>
+				<a2>0.177</a2>
 			</Haigis>
-			<HofferQ>6.09901</HofferQ>
-			<Holladay1>2.31201</Holladay1>
+			<HofferQ>6.099</HofferQ>
+			<Holladay1>2.312</Holladay1>
 		</Constants>
 	</Lens>
-	
+	<Lens id="2391">
+		<Manufacturer>ZEISS</Manufacturer>
+		<Name>CT LUCIA 621P Korea</Name>
+		<Specifications>
+			<SinglePiece>yes</SinglePiece>
+			<OpticMaterial>acrylic</OpticMaterial>
+			<HapticMaterial></HapticMaterial>
+			<Preloaded>yes</Preloaded>
+			<Foldable>yes</Foldable>
+			<IncisionWidth></IncisionWidth>
+			<InjectorSize></InjectorSize>
+			<Hydro>hydrophobic</Hydro>
+			<Filter>clear</Filter>
+			<RefractiveIndex>1.49</RefractiveIndex>
+			<AbbeNumber>51</AbbeNumber>
+			<Achromatic></Achromatic>
+			<OpticDiameter>6</OpticDiameter>
+			<HapticDiameter>13</HapticDiameter>
+			<OpticConcept>monofocal</OpticConcept>
+			<HapticDesign>C loop</HapticDesign>
+			<IntendedLocation>capsular bag</IntendedLocation>
+			<OpticDesign>asphere</OpticDesign>
+			<Aberration>correcting</Aberration>
+			<saCorrection></saCorrection>
+			<Toric>no</Toric>
+		</Specifications>
+		<Availability>
+		</Availability>
+		<Constants type="nominal">
+			<Ultrasound>120.2</Ultrasound>
+			<SRKt>120.2</SRKt>
+			<Haigis>
+				<a0>2.103</a0>
+				<a1>0.4</a1>
+				<a2>0.1</a2>
+			</Haigis>
+			<HofferQ>6.29</HofferQ>
+			<Holladay1>2.5</Holladay1>
+			<Barrett>
+				<LF>2.51</LF>
+				<DF>3.5</DF>
+			</Barrett>
+			<Olsen></Olsen>
+		</Constants>
+		<Constants type="optimized" results="230">
+			<SRKt>119.8842</SRKt>
+			<Haigis>
+				<a0>0.308</a0>
+				<a1>0.38</a1>
+				<a2>0.1776</a2>
+			</Haigis>
+			<HofferQ>6.1955</HofferQ>
+			<Holladay1>2.3897</Holladay1>
+		</Constants>
+	</Lens>
 	<Lens id="1138">
 		<Manufacturer>ZEISS</Manufacturer>
 		<Name>CT LUCIA 621PY</Name>
@@ -38954,16 +40350,345 @@
 			</Barrett>
 			<Olsen></Olsen>
 		</Constants>
-		<Constants type="optimized" results="1178">
-			<SRKt>119.75611</SRKt>
+		<Constants type="optimized" results="1003">
+			<SRKt>119.7561</SRKt>
 			<Haigis>
-				<a0>0.37252</a0>
-				<a1>0.32028</a1>
-				<a2>0.17699</a2>
+				<a0>0.3725</a0>
+				<a1>0.3203</a1>
+				<a2>0.177</a2>
 			</Haigis>
-			<HofferQ>6.09901</HofferQ>
-			<Holladay1>2.31201</Holladay1>
+			<HofferQ>6.099</HofferQ>
+			<Holladay1>2.312</Holladay1>
 		</Constants>
 	</Lens>
-	
+	<Lens id="2390">
+		<Manufacturer>ZEISS</Manufacturer>
+		<Name>CT LUCIA 621PY Korea</Name>
+		<Specifications>
+			<SinglePiece>yes</SinglePiece>
+			<OpticMaterial>acrylic</OpticMaterial>
+			<HapticMaterial></HapticMaterial>
+			<Preloaded>yes</Preloaded>
+			<Foldable>yes</Foldable>
+			<IncisionWidth></IncisionWidth>
+			<InjectorSize></InjectorSize>
+			<Hydro>hydrophobic</Hydro>
+			<Filter>yellow</Filter>
+			<RefractiveIndex>1.49</RefractiveIndex>
+			<AbbeNumber>50</AbbeNumber>
+			<Achromatic></Achromatic>
+			<OpticDiameter>6</OpticDiameter>
+			<HapticDiameter>13</HapticDiameter>
+			<OpticConcept>monofocal</OpticConcept>
+			<HapticDesign>C loop</HapticDesign>
+			<IntendedLocation>capsular bag</IntendedLocation>
+			<OpticDesign>asphere</OpticDesign>
+			<Aberration>correcting</Aberration>
+			<saCorrection></saCorrection>
+			<Toric>no</Toric>
+		</Specifications>
+		<Availability>
+			<Sphere range="1">
+				<From>0</From>
+				<To>34</To>
+				<Increment>0.5</Increment>
+			</Sphere>
+		</Availability>
+		<Constants type="nominal">
+			<Ultrasound>120.2</Ultrasound>
+			<SRKt>120.2</SRKt>
+			<Haigis>
+				<a0>2.103</a0>
+				<a1>0.4</a1>
+				<a2>0.1</a2>
+			</Haigis>
+			<HofferQ>6.29</HofferQ>
+			<Holladay1>2.5</Holladay1>
+			<Barrett>
+				<LF>2.51</LF>
+				<DF>3.5</DF>
+			</Barrett>
+			<Olsen></Olsen>
+		</Constants>
+		<Constants type="optimized" results="230">
+			<SRKt>119.8842</SRKt>
+			<Haigis>
+				<a0>0.308</a0>
+				<a1>0.38</a1>
+				<a2>0.1776</a2>
+			</Haigis>
+			<HofferQ>6.1955</HofferQ>
+			<Holladay1>2.3897</Holladay1>
+		</Constants>
+	</Lens>
+	<Lens id="1864">
+		<Manufacturer>ZEISS</Manufacturer>
+		<Name>CT SPHERIS 203</Name>
+		<Specifications>
+			<SinglePiece>yes</SinglePiece>
+			<OpticMaterial>acrylic</OpticMaterial>
+			<HapticMaterial></HapticMaterial>
+			<Preloaded>no</Preloaded>
+			<Foldable>yes</Foldable>
+			<IncisionWidth>2.8</IncisionWidth>
+			<InjectorSize>2.8</InjectorSize>
+			<Hydro>hydrophilic</Hydro>
+			<Filter>clear</Filter>
+			<RefractiveIndex>1.4565</RefractiveIndex>
+			<AbbeNumber></AbbeNumber>
+			<Achromatic></Achromatic>
+			<OpticDiameter>6</OpticDiameter>
+			<HapticDiameter>10.5</HapticDiameter>
+			<OpticConcept>monofocal</OpticConcept>
+			<HapticDesign>3-haptic</HapticDesign>
+			<IntendedLocation>capsular bag</IntendedLocation>
+			<OpticDesign>sphere</OpticDesign>
+			<Aberration></Aberration>
+			<saCorrection></saCorrection>
+			<Toric>no</Toric>
+		</Specifications>
+		<Availability>
+			<Sphere range="1">
+				<From>8</From>
+				<To>26</To>
+				<Increment>0.5</Increment>
+			</Sphere>
+			<Sphere range="2">
+				<From>26</From>
+				<To>32</To>
+				<Increment>1</Increment>
+			</Sphere>
+		</Availability>
+		<Constants type="nominal">
+			<Ultrasound>118</Ultrasound>
+			<SRKt>118.5</SRKt>
+			<Haigis>
+				<a0>1.05</a0>
+				<a1>0.4</a1>
+				<a2>0.1</a2>
+			</Haigis>
+			<HofferQ>5.23</HofferQ>
+			<Holladay1>1.47</Holladay1>
+			<Barrett>
+				<LF>1.62</LF>
+				<DF>0</DF>
+			</Barrett>
+			<Olsen></Olsen>
+		</Constants>
+		<Constants type="optimized" results="0">
+			<SRKt></SRKt>
+			<Haigis>
+				<a0></a0>
+				<a1></a1>
+				<a2></a2>
+			</Haigis>
+			<HofferQ></HofferQ>
+			<Holladay1></Holladay1>
+		</Constants>
+	</Lens>
+	<Lens id="1863">
+		<Manufacturer>ZEISS</Manufacturer>
+		<Name>CT SPHERIS 203P</Name>
+		<Specifications>
+			<SinglePiece>yes</SinglePiece>
+			<OpticMaterial>acrylic</OpticMaterial>
+			<HapticMaterial></HapticMaterial>
+			<Preloaded>yes</Preloaded>
+			<Foldable>yes</Foldable>
+			<IncisionWidth>2.8</IncisionWidth>
+			<InjectorSize>2.8</InjectorSize>
+			<Hydro>hydrophilic</Hydro>
+			<Filter>clear</Filter>
+			<RefractiveIndex>1.4565</RefractiveIndex>
+			<AbbeNumber></AbbeNumber>
+			<Achromatic></Achromatic>
+			<OpticDiameter>6</OpticDiameter>
+			<HapticDiameter>10.5</HapticDiameter>
+			<OpticConcept>monofocal</OpticConcept>
+			<HapticDesign>3-haptic</HapticDesign>
+			<IntendedLocation>capsular bag</IntendedLocation>
+			<OpticDesign>sphere</OpticDesign>
+			<Aberration></Aberration>
+			<saCorrection></saCorrection>
+			<Toric>no</Toric>
+		</Specifications>
+		<Availability>
+			<Sphere range="1">
+				<From>8</From>
+				<To>26</To>
+				<Increment>0.5</Increment>
+			</Sphere>
+			<Sphere range="2">
+				<From>26</From>
+				<To>30</To>
+				<Increment>1</Increment>
+			</Sphere>
+		</Availability>
+		<Constants type="nominal">
+			<Ultrasound>118</Ultrasound>
+			<SRKt>118.5</SRKt>
+			<Haigis>
+				<a0>1.05</a0>
+				<a1>0.4</a1>
+				<a2>0.1</a2>
+			</Haigis>
+			<HofferQ>5.23</HofferQ>
+			<Holladay1>1.47</Holladay1>
+			<Barrett>
+				<LF>1.62</LF>
+				<DF>0</DF>
+			</Barrett>
+			<Olsen></Olsen>
+		</Constants>
+		<Constants type="optimized" results="0">
+			<SRKt></SRKt>
+			<Haigis>
+				<a0></a0>
+				<a1></a1>
+				<a2></a2>
+			</Haigis>
+			<HofferQ></HofferQ>
+			<Holladay1></Holladay1>
+		</Constants>
+	</Lens>
+	<Lens id="1016">
+		<Manufacturer>ZEISS</Manufacturer>
+		<Name>CT SPHERIS 204</Name>
+		<Specifications>
+			<SinglePiece>yes</SinglePiece>
+			<OpticMaterial>acrylic</OpticMaterial>
+			<HapticMaterial></HapticMaterial>
+			<Preloaded>no</Preloaded>
+			<Foldable>yes</Foldable>
+			<IncisionWidth>2.2</IncisionWidth>
+			<InjectorSize>2.2</InjectorSize>
+			<Hydro>hydrophilic</Hydro>
+			<Filter>clear</Filter>
+			<RefractiveIndex>1.46</RefractiveIndex>
+			<AbbeNumber>58</AbbeNumber>
+			<Achromatic></Achromatic>
+			<OpticDiameter>6</OpticDiameter>
+			<HapticDiameter>11</HapticDiameter>
+			<OpticConcept>monofocal</OpticConcept>
+			<HapticDesign>4-haptic. MICS</HapticDesign>
+			<IntendedLocation>capsular bag</IntendedLocation>
+			<OpticDesign>sphere</OpticDesign>
+			<Aberration></Aberration>
+			<saCorrection></saCorrection>
+			<Toric>no</Toric>
+		</Specifications>
+		<Availability>
+			<Sphere range="1">
+				<From>-10</From>
+				<To>10</To>
+				<Increment>1</Increment>
+			</Sphere>
+			<Sphere range="2">
+				<From>10</From>
+				<To>30</To>
+				<Increment>0.5</Increment>
+			</Sphere>
+			<Sphere range="3">
+				<From>30</From>
+				<To>45</To>
+				<Increment>1</Increment>
+			</Sphere>
+		</Availability>
+		<Constants type="ULIB" results="177">
+			<Ultrasound>118.2</Ultrasound>
+			<SRKt>118.3</SRKt>
+			<Haigis>
+				<a0>0.93</a0>
+				<a1>0.4</a1>
+				<a2>0.1</a2>
+			</Haigis>
+			<HofferQ>5.16</HofferQ>
+			<Holladay1>1.4</Holladay1>
+			<Barrett>
+				<LF>1.52</LF>
+				<DF>0</DF>
+			</Barrett>
+			<Olsen></Olsen>
+		</Constants>
+		<Constants type="optimized" results="0">
+			<SRKt></SRKt>
+			<Haigis>
+				<a0></a0>
+				<a1></a1>
+				<a2></a2>
+			</Haigis>
+			<HofferQ></HofferQ>
+			<Holladay1></Holladay1>
+		</Constants>
+	</Lens>
+	<Lens id="1017">
+		<Manufacturer>ZEISS</Manufacturer>
+		<Name>CT SPHERIS 209M</Name>
+		<Specifications>
+			<SinglePiece>yes</SinglePiece>
+			<OpticMaterial>acrylic</OpticMaterial>
+			<HapticMaterial></HapticMaterial>
+			<Preloaded>no</Preloaded>
+			<Foldable>yes</Foldable>
+			<IncisionWidth>1.8</IncisionWidth>
+			<InjectorSize>1.8</InjectorSize>
+			<Hydro>hydrophilic</Hydro>
+			<Filter>clear</Filter>
+			<RefractiveIndex>1.46</RefractiveIndex>
+			<AbbeNumber>58</AbbeNumber>
+			<Achromatic></Achromatic>
+			<OpticDiameter>6</OpticDiameter>
+			<HapticDiameter>11</HapticDiameter>
+			<OpticConcept>monofocal</OpticConcept>
+			<HapticDesign>4-haptic. MICS</HapticDesign>
+			<IntendedLocation>capsular bag</IntendedLocation>
+			<OpticDesign>sphere</OpticDesign>
+			<Aberration></Aberration>
+			<saCorrection></saCorrection>
+			<Toric>no</Toric>
+		</Specifications>
+		<Availability>
+			<Sphere range="1">
+				<From>0</From>
+				<To>10</To>
+				<Increment>1</Increment>
+			</Sphere>
+			<Sphere range="2">
+				<From>10</From>
+				<To>30</To>
+				<Increment>0.5</Increment>
+			</Sphere>
+			<Sphere range="3">
+				<From>30</From>
+				<To>32</To>
+				<Increment>1</Increment>
+			</Sphere>
+		</Availability>
+		<Constants type="ULIB" results="873">
+			<Ultrasound>117.9</Ultrasound>
+			<SRKt>118.3</SRKt>
+			<Haigis>
+				<a0>0.574</a0>
+				<a1>0.166</a1>
+				<a2>0.148</a2>
+			</Haigis>
+			<HofferQ>5.16</HofferQ>
+			<Holladay1>1.39</Holladay1>
+			<Barrett>
+				<LF>1.52</LF>
+				<DF>0</DF>
+			</Barrett>
+			<Olsen></Olsen>
+		</Constants>
+		<Constants type="optimized" results="0">
+			<SRKt></SRKt>
+			<Haigis>
+				<a0></a0>
+				<a1></a1>
+				<a2></a2>
+			</Haigis>
+			<HofferQ></HofferQ>
+			<Holladay1></Holladay1>
+		</Constants>
+	</Lens>
 </IOLCon>
